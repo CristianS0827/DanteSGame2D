@@ -4,37 +4,55 @@ using UnityEngine;
 
 public class Enemigos : MonoBehaviour
 {
-    [SerializeField] private float velocidadMovimiento;
-    [SerializeField] private Transform[] puntosMovimiento;
-    [SerializeField] private float distanciaMinima;
+    [SerializeField] private float velocidad;
+    [SerializeField] private Transform ControladorSuelo;
+    [SerializeField] private float distancia;
+    [SerializeField] private bool moviendoDerecha;
+    private Animator ani;
+    public float vida;
 
-    private int numeroAleatorio;
-    private SpriteRenderer spriteRenderer;
+    private Rigidbody2D Rigidbody2D;
 
     private void Start()
     {
-        numeroAleatorio = Random.Range(0, puntosMovimiento.Length);
-        spriteRenderer = GetComponent<SpriteRenderer>();
-        Girar();
+       Rigidbody2D=GetComponent<Rigidbody2D>();
+
     }
+    public void TomarDaño(float daño)
+    {
+        vida-= daño;
+        if(vida<=0)
+        {
+            Muerte();
+        }
+    }
+    private void Muerte()
+    {
+        ani.SetTrigger("Muerte");
+    }
+
 
     private void Update()
     {
-        transform.position = Vector2.MoveTowards(transform.position, puntosMovimiento[numeroAleatorio].position, velocidadMovimiento * Time.deltaTime);
-        if (Vector2.Distance(transform.position, puntosMovimiento[numeroAleatorio].position) < distanciaMinima) 
-        {
-            numeroAleatorio = Random.Range(0, puntosMovimiento.Length);
-            Girar();
-        }
+       RaycastHit2D informacionSuelo= Physics2D.Raycast(ControladorSuelo.position, Vector2.down, distancia);
+       Rigidbody2D.velocity=new Vector2(velocidad,Rigidbody2D.velocity.y);
 
+       if(informacionSuelo==false)
+       {
+        Girar();
+       }
     }
-
     private void Girar()
     {
-        if (transform.position.x < puntosMovimiento[numeroAleatorio].position.x)
-        {
-            spriteRenderer.flipX = true;
-        }
-        else spriteRenderer.flipX = false;
+        moviendoDerecha = !moviendoDerecha;
+        transform.eulerAngles= new Vector3(0, transform.eulerAngles.y+180,0);
+        velocidad*= -1;
     }
+
+    private void OnDrawGizmos() {
+        Gizmos.color= Color.red;
+        Gizmos.DrawLine(ControladorSuelo.transform.position, ControladorSuelo.transform.position+Vector3.down*distancia);
+    }
+
+   
 }

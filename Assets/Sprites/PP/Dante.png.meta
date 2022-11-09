@@ -1,0 +1,1335 @@
+fileFormatVersion: 2
+guid: 3992301280018344a958befbd2dc9a69
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DanteRepose06
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 853
+        width: 75
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bf748c9df3ef044f896aec4511e8fd6
+      internalID: 1436172444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanteRepose00
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 990
+        width: 74
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa88fac4a41d13b4b9949f20028583a3
+      internalID: 1552493719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanteRepose01
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 990
+        width: 75
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e8353235409c5141bced36198442fe4
+      internalID: 449984748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanteRepose02
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 989
+        width: 75
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9642668feeefcb43835376b577a3272
+      internalID: -1573583988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanteRepose03
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 990
+        width: 75
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad8529a55101ab64f983184f93afe629
+      internalID: -471283891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanteRepose04
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 989
+        width: 75
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 519fc759e2a229c45a5e48bfee286604
+      internalID: -1381942160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanteRepose05
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 990
+        width: 75
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70360f4602a379f449e418e7338e6fd6
+      internalID: 1540838172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanteRun00
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 305
+        width: 88
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7660930afb5012645b8759889708e98c
+      internalID: -1819244940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanteRun01
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 306
+        width: 88
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e77e8c3c0b3e13f4ead70ede95c3dc95
+      internalID: 162213609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanteRun02
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 306
+        width: 88
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c86ed07e075e1214dad6c817b9ef1b27
+      internalID: -1065787770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanteRun03
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 306
+        width: 88
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cd65619502a14f4e9fb42fcf2955430
+      internalID: -976588905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanteRun04
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 306
+        width: 88
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8934af311c9f0442b7bf499e38a1bdd
+      internalID: 2029648154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanteRun05
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 305
+        width: 88
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d71c2b7f32ca7a4481d00f5cc833ce4
+      internalID: 1574584285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanteAttack00
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 168
+        width: 108
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d02c8d7de05d00439ae19d5f303b632
+      internalID: -570694862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanteAttack01
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 168
+        width: 108
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67e74c4e5ed5edb4ca0bee89b807500e
+      internalID: 96219356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanteAttack02
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 171
+        width: 108
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0ae1e70ab9fc6345a937b7bf4595302
+      internalID: 173380352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanteAttack03
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 169
+        width: 108
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a862c787c86230143b97e56dd6b7cdf2
+      internalID: -680605140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanteAttack04
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 169
+        width: 108
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00e41c456d78ce6469b7dc3b6a67a7f6
+      internalID: 1830498318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanteAttack05
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 170
+        width: 108
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8a9beb953aba064095afa1348da070c
+      internalID: -412761787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanteAttack06
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 33
+        width: 108
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e85dd2ff45ae921499e2fb49441f1113
+      internalID: 7926979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanteAttack07
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 33
+        width: 108
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de177dffc79ea214096920c6e5da1bab
+      internalID: 2112607539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanteAttack08
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 33
+        width: 108
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4c4abf543dbce34585a2cdf77fa2bfa
+      internalID: 878900353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanteAttack09
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 33
+        width: 108
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1ea9029ad00c49449d0b4c4c5de5428
+      internalID: 732797968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanteAttack10
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 33
+        width: 108
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cba1c0d009f32f443b25acca061ac80e
+      internalID: -1388827213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanteAttack12
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 33
+        width: 108
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abfb7fe9a4f60124389c34766072bd46
+      internalID: 1678285593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanteRepose07
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 853
+        width: 75
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36f9076e41be5354eabf4c7620f8c36f
+      internalID: 1724990471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanteRepose08
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 854
+        width: 75
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c323087249f72d47b452151cf95d19e
+      internalID: 91137471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanteRepose09
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 853
+        width: 75
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32eb66f79c3e21942b8a49e470019759
+      internalID: 153638835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanteRepose10
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 853
+        width: 75
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0a7f3cbe612cbe4cbd176c688b4c3e8
+      internalID: -642697016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanteRepose11
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 852
+        width: 75
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7530f33f22a0814f9097c582e247508
+      internalID: -813520934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanteRepose12
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 717
+        width: 75
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9259f6081bae59f48a669a4f8291bb21
+      internalID: -131540380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanteRepose13
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 717
+        width: 75
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb79599912f07604ba074e17d94d4910
+      internalID: 460094381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanteRepose14
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 717
+        width: 75
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c6599a03a3293f4ab4df6f6c99a07ed
+      internalID: 430139909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanteRepose15
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 717
+        width: 75
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ce6e12eb15117a469e3dc48292427a1
+      internalID: 911906377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanteRepose16
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 717
+        width: 75
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afcaec975a2a6b0419b0b03a5c7b48ef
+      internalID: 827470647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanteRepose17
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 717
+        width: 75
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 455631dcf0b0fd745a76cb55c893717f
+      internalID: -1614843794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanteRepose18
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 580
+        width: 75
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f14080079c37d24784ba328aedcb594
+      internalID: 565587622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanteRepose19
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 580
+        width: 75
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd27c5159fe394a47bafe300e9ad72ca
+      internalID: -1358987889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanteRepose20
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 580
+        width: 75
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e36e7f905355ea447b6b904c04a88384
+      internalID: 1741791616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanteRepose21
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 580
+        width: 75
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3042f99995d88de4cb599512dd77feac
+      internalID: -636421809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanteRepose22
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 580
+        width: 75
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25824b255716d96459e58ee5af0a6116
+      internalID: -826808588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanteRepose23
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 580
+        width: 75
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cf681eeb8f834e4db742cd358f6cdcd
+      internalID: 1842370999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanteRepose24
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 443
+        width: 75
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba35a555adae4ee41a6fb1512506bb84
+      internalID: -977335486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanteRepose25
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 443
+        width: 75
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9d6ae560c73e8142bf46e5e627b42ea
+      internalID: 837285351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanteRepose26
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 444
+        width: 75
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 372120e78a591d54b8cd0c1c33d131f0
+      internalID: 1384198571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanteRepose27
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 443
+        width: 75
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa7bae4e4ace51c49893beaf6cb37b5f
+      internalID: -1846161108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanteRepose28
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 444
+        width: 75
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32debf8d0aeb0d245985c47309517cdd
+      internalID: 219752774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanteRepose29
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 443
+        width: 75
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4473d04964129d4b89715571030c6e8
+      internalID: 1900048596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Dante_58: 1128443764
+      Dante_94: -1811794998
+      Dante_67: -350868770
+      Dante_125: -854119470
+      Dante_186: 2026760800
+      Dante_183: 115355716
+      Dante_30: 1858407324
+      Dante_202: -1854749832
+      Dante_156: 487891332
+      DanteRepose27: -1846161108
+      DanteRepose09: 153638835
+      DanteRepose15: 911906377
+      DanteRepose00: 1552493719
+      Dante_42: 742690263
+      Dante_41: -1130738998
+      Dante_91: 94101939
+      Dante_177: 811792976
+      DanteRepose24: -977335486
+      Dante_57: -1426522053
+      Dante_80: -120208853
+      Dante_55: 1822983865
+      Dante_189: 201090769
+      DanteAttack06: 7926979
+      Dante_188: 1178986645
+      DanteRepose11: -813520934
+      Dante_79: -755413870
+      Dante_90: -619441865
+      Dante_103: -1978537842
+      DanteRepose14: 430139909
+      DanteRepose08: 91137471
+      Dante_109: 1043603816
+      Dante_136: 1583008621
+      Dante_43: -1513494014
+      Dante_39: -947746803
+      DanteAttack04: 1830498318
+      Dante_131: -1466492534
+      Dante_105: -1250298762
+      Dante_149: -1064696638
+      Dante_134: -894872841
+      Dante_86: -26905134
+      Dante_132: -836933314
+      Dante_84: 402821588
+      Dante_104: 2131185685
+      Dante_64: 371335928
+      Dante_119: 236837488
+      DanteRepose10: -642697016
+      Dante_92: -619025777
+      DanteRepose12: -131540380
+      Dante_97: -1377482599
+      Dante_193: 880185033
+      Dante_128: 564816361
+      Dante_76: -102714672
+      Dante_59: 2087477452
+      DanteRepose13: 460094381
+      Dante_89: -2069775895
+      Dante_151: 1189386206
+      Dante_62: -978574908
+      DanteRepose18: 565587622
+      DanteRepose29: 1900048596
+      DanteRun04: 2029648154
+      Dante_148: -2084057420
+      DanteRun03: -976588905
+      Dante_170: 680867016
+      Dante_160: -1145450347
+      Dante_101: -1600472325
+      Dante_102: 761261114
+      Dante_32: 1736422319
+      Dante_83: -974197588
+      Dante_37: -894063745
+      Dante_82: -1572901317
+      Dante_158: -1260559008
+      Dante_61: -311705808
+      Dante_49: -411042633
+      Dante_107: -806637467
+      Dante_169: 2047156543
+      Dante_115: -1648787044
+      DanteRepose28: 219752774
+      Dante_168: 1957247949
+      DanteRepose20: 1741791616
+      DanteRepose06: 1436172444
+      DanteAttack02: 173380352
+      DanteRepose25: 837285351
+      Dante_127: 1522766634
+      Dante_181: 396769938
+      DanteAttack07: 2112607539
+      Dante_178: -613773212
+      Dante_46: -1652695973
+      DanteRun02: -1065787770
+      DanteRepose01: 449984748
+      DanteAttack12: 1678285593
+      Dante_147: 694386021
+      Dante_96: -590213672
+      Dante_75: -531474469
+      Dante_175: 856839847
+      Dante_123: 1222607663
+      Dante_44: 153232500
+      DanteRepose26: 1384198571
+      DanteRepose05: 1540838172
+      DanteRepose21: -636421809
+      Dante_45: -468007869
+      Dante_47: 1530575222
+      Dante_77: 2020673298
+      Dante_118: -1012874179
+      DanteAttack01: 96219356
+      Dante_98: 1269468656
+      Dante_140: 1869151720
+      Dante_146: -661959340
+      DanteAttack08: 878900353
+      Dante_65: -1044103211
+      Dante_70: -1807711329
+      Dante_150: 644537813
+      Dante_124: -52473819
+      Dante_116: -1658734747
+      Dante_48: -1664547469
+      Dante_73: 517775043
+      Dante_198: 1553428451
+      DanteRepose17: -1614843794
+      Dante_50: 1783589102
+      Dante_56: -713871338
+      Dante_106: 1976763015
+      Dante_172: -408550700
+      Dante_63: 677620878
+      DanteRepose04: -1381942160
+      Dante_179: -745116713
+      Dante_144: 803676861
+      Dante_162: 1479299210
+      Dante_87: 2094199327
+      Dante_33: -38713391
+      Dante_72: -301584809
+      Dante_145: -1836783560
+      Dante_53: 1237540496
+      Dante_93: 1185763865
+      Dante_111: 1993573972
+      Dante_74: 1182148280
+      Dante_95: -333284673
+      Dante_114: 172814976
+      Dante_40: 1284840806
+      Dante_142: 1434876237
+      Dante_153: -1884923219
+      Dante_122: -795378907
+      DanteAttack03: -680605140
+      Dante_85: 1157550893
+      Dante_129: 562217739
+      Dante_100: -360671697
+      Dante_110: -55831046
+      Dante_173: -1083111622
+      Dante_66: -1043073007
+      Dante_155: 1664424975
+      Dante_35: 613811815
+      Dante_38: 12420365
+      Dante_130: 1708254002
+      Dante_108: -1545123812
+      DanteAttack09: 732797968
+      Dante_194: 1166416436
+      Dante_120: 1403248359
+      Dante_185: -434432610
+      DanteAttack10: -1388827213
+      Dante_68: -2020065332
+      DanteRun00: -1819244940
+      Dante_99: 1331547250
+      DanteRepose19: -1358987889
+      Dante_138: -1518381513
+      Dante_176: -460617062
+      Dante_200: 701037584
+      DanteRepose23: 1842370999
+      Dante_117: -237724587
+      Dante_152: -1922165082
+      Dante_34: 235224573
+      Dante_81: 1222814964
+      Dante_51: -1810403002
+      Dante_78: -1860748419
+      Dante_112: 370975106
+      DanteRun05: 1574584285
+      Dante_71: 1494013582
+      Dante_180: 1885471854
+      DanteRepose02: -1573583988
+      Dante_52: 161611894
+      DanteRepose03: -471283891
+      DanteAttack00: -570694862
+      Dante_88: 2037060275
+      Dante_171: -1300546832
+      Dante_166: -199708215
+      Dante_31: -846258506
+      DanteAttack05: -412761787
+      Dante_60: 1828831784
+      DanteRepose22: -826808588
+      Dante_196: -233606289
+      Dante_36: 919153186
+      Dante_69: -1881382272
+      Dante_126: 1628837505
+      Dante_121: 1221190275
+      Dante_54: 1655004678
+      Dante_164: 413406676
+      Dante_113: -365227779
+      DanteRun01: 162213609
+      Dante_190: 1651526313
+      DanteRepose07: 1724990471
+      Dante_154: 1349418058
+      DanteRepose16: 827470647
+      Dante_174: 1943843629
+      Dante_182: 879374523
+      Dante_184: 1712782552
+      Dante_191: 1506566329
+      Dante_187: -614592998
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -131,7 +131,7 @@ TextureImporter:
         serializedVersion: 2
         x: 38
         y: 153
-        width: 32
+        width: 33
         height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -152,7 +152,7 @@ TextureImporter:
         serializedVersion: 2
         x: 71
         y: 153
-        width: 32
+        width: 33
         height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -213,10 +213,10 @@ TextureImporter:
       name: Terreno_5
       rect:
         serializedVersion: 2
-        x: 7
-        y: 121
-        width: 30
-        height: 31
+        x: 5
+        y: 120
+        width: 33
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -235,9 +235,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 38
-        y: 121
-        width: 32
-        height: 31
+        y: 120
+        width: 33
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -256,9 +256,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 71
-        y: 121
+        y: 120
         width: 32
-        height: 31
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -277,9 +277,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 104
-        y: 121
-        width: 30
-        height: 31
+        y: 120
+        width: 33
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -297,10 +297,10 @@ TextureImporter:
       name: Terreno_9
       rect:
         serializedVersion: 2
-        x: 151
-        y: 121
-        width: 31
-        height: 31
+        x: 148
+        y: 120
+        width: 37
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -318,10 +318,10 @@ TextureImporter:
       name: Terreno_10
       rect:
         serializedVersion: 2
-        x: 7
-        y: 88
-        width: 30
-        height: 32
+        x: 5
+        y: 87
+        width: 33
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -340,9 +340,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 38
-        y: 88
-        width: 32
-        height: 32
+        y: 87
+        width: 33
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -361,9 +361,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 71
-        y: 88
-        width: 32
-        height: 32
+        y: 87
+        width: 33
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -382,9 +382,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 104
-        y: 88
-        width: 30
-        height: 32
+        y: 87
+        width: 33
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -402,10 +402,10 @@ TextureImporter:
       name: Terreno_14
       rect:
         serializedVersion: 2
-        x: 151
-        y: 88
-        width: 31
-        height: 32
+        x: 148
+        y: 87
+        width: 37
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -426,7 +426,7 @@ TextureImporter:
         x: 4
         y: 50
         width: 33
-        height: 32
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -446,7 +446,7 @@ TextureImporter:
         serializedVersion: 2
         x: 38
         y: 50
-        width: 32
+        width: 33
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -467,7 +467,7 @@ TextureImporter:
         serializedVersion: 2
         x: 71
         y: 50
-        width: 32
+        width: 33
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -510,7 +510,7 @@ TextureImporter:
         x: 5
         y: 11
         width: 37
-        height: 32
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
