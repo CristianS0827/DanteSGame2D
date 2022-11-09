@@ -1,17 +1,20 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 
-public class Enemigos : MonoBehaviour
+public class Enemy : MonoBehaviour
 {
-    [SerializeField] private float velocidad;
-    [SerializeField] private Transform ControladorSuelo;
-    [SerializeField] private float distancia;
-    [SerializeField] private bool moviendoDerecha;
+     private float velocidad;
+     public Transform ControladorSuelo;
+     public float distancia;
+     private bool moviendoDerecha;
     private Animator ani;
     public float vida;
+    public string EnemyName;
 
     private Rigidbody2D Rigidbody2D;
+    
 
     private void Start()
     {

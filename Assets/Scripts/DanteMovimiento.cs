@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class DanteMovimiento : MonoBehaviour
 {
     public float Velocidad;
@@ -36,16 +37,16 @@ public class DanteMovimiento : MonoBehaviour
       }
       
     }
-    public void Attack()
-     {
-      if(Input.GetButtonDown("Fire1"))
+     public void Attack()
       {
-        Animator.SetBool("Att",true);
-      }else
-      {
-        Animator.SetBool("Att",false);
+       if(Input.GetButtonDown("Fire1"))
+       {
+         Animator.SetBool("Att",true);
+       }else
+       {
+         Animator.SetBool("Att",false);
+       }
       }
-     }
     private void Jump()
     {
         Rigidbody2D.AddForce(Vector2.up*FuerzaSalto);
