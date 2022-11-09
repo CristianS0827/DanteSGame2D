@@ -5,22 +5,22 @@ using System.Linq;
 
 public class GeneradorEnemigos : MonoBehaviour
 {
-    provate float minX, maxX, minY, maxY;
+    private float minX, maxX, minY, maxY;
     [SerializeField] private Transform[] puntos;
     [SerializeField] private GameObject[] enemigos;
     [SerializeField] private float tiempoEnemigos;
-
+    private float tiempoSiguienteEnemigo;
     // puntos es el objeto vacio donde haran respawn y en enemigos va el prefab de los enemigos
-    void Start()
+    private void Start()
     {
-        maxX = respawn.Max(punto => punto.position.x);
-        minX = respawn.Min(punto => punto.position.x);
-        maxY = respawn.Max(punto => punto.position.y);
-        minY = respawn.Min(punto => punto.position.y);
+        maxX = puntos.Max(punto => punto.position.x);
+        minX = puntos.Min(punto => punto.position.x);
+        maxY = puntos.Max(punto => punto.position.y);
+        minY = puntos.Min(punto => punto.position.y);
     }
 
     // Update is called once per frame
-    void Update()
+    private void Update()
     {
         tiempoSiguienteEnemigo += Time.deltaTime;
 
