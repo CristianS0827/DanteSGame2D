@@ -22,7 +22,9 @@ public class Player : MonoBehaviour
     private void Update()
     {
         // Movimiento
-        Horizontal = Input.GetAxisRaw("Horizontal");
+        Horizontal = Input.GetAxisRaw("Horizontal") * Speed;
+
+        Animator.SetFloat("Horizontal", Mathf.Abs(Horizontal));
 
         if (Horizontal < 0.0f) transform.localScale = new Vector3(-1.0f, 1.0f, 1.0f);
         else if (Horizontal > 0.0f) transform.localScale = new Vector3(1.0f, 1.0f, 1.0f);
