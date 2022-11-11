@@ -30,7 +30,7 @@ public class DanteHealth : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        VidaImagen.fillAmount=VidaPP/100;
+        // VidaImagen.fillAmount=VidaPP/100;
         if(VidaPP>maxVidaPP)
         {
             VidaPP=maxVidaPP;
