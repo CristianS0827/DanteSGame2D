@@ -25,10 +25,10 @@ public class DanteMovimiento : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-      Attack();
+      // Attack();
       Horizontal = Input.GetAxisRaw("Horizontal"); 
-      if (Horizontal<0.0f) transform.localScale= new Vector3(-0.33f, 0.33f, 0.33f);
-      else if(Horizontal>0.0f) transform.localScale = new Vector3(0.33f, 0.33f, 0.33f);
+      if (Horizontal<0.0f) transform.localScale= new Vector3(-0.3333f,0.3333f,0.3333f);
+      else if(Horizontal>0.0f) transform.localScale = new Vector3(0.3333f,0.3333f,0.3333f);
       Animator.SetBool("Corriendo",Horizontal != 0.0f);
       PisandoSuelo= Physics2D.OverlapCircle(Check.position, RadioChecker,WiPiso);
       if (Input.GetKeyDown(KeyCode.W) && PisandoSuelo==true)
@@ -37,16 +37,16 @@ public class DanteMovimiento : MonoBehaviour
       }
       
     }
-     public void Attack()
-      {
-       if(Input.GetButtonDown("Fire1"))
-       {
-         Animator.SetBool("Att",true);
-       }else
-       {
-         Animator.SetBool("Att",false);
-       }
-      }
+    //  public void Attack()
+    //   {
+    //    if(Input.GetButtonDown("Fire1"))
+    //    {
+    //      Animator.SetBool("Att",true);
+    //    }else
+    //    {
+    //      Animator.SetBool("Att",false);
+    //    }
+    //   }
     private void Jump()
     {
         Rigidbody2D.AddForce(Vector2.up*FuerzaSalto);

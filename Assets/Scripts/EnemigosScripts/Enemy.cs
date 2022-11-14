@@ -21,8 +21,9 @@ public class Enemy : MonoBehaviour
     private Rigidbody2D rb;
     [SerializeField] public bool esDañado;
     [SerializeField] SpriteRenderer sprite;
-    CombateCC posG;
     Blink material;
+    public CombateCC posG;
+    
     
 
     private void Start()
@@ -38,6 +39,10 @@ public class Enemy : MonoBehaviour
         if(!esDañado)
         {
         vida -= daño;
+        if(posG.posGolpe.x>transform.position.x)
+        {
+        rb.AddForce(new Vector2(kbForceX,kbForceY), ForceMode2D.Force);
+        }else
         rb.AddForce(new Vector2(kbForceX,kbForceY), ForceMode2D.Force);
         StartCoroutine(Damager());
         }
