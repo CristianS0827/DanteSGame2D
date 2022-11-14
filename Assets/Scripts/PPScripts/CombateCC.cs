@@ -11,7 +11,7 @@ public class CombateCC : MonoBehaviour
     [SerializeField] public float dañoGolpe;
     [SerializeField] public bool esDañado;
     [SerializeField] private float tiempoEntreAtt;
-    public Vector3 posGolpe;
+    public float posGolpe;
     [SerializeField] private float tiempoSigAtt;
     private Animator animator;
 
@@ -21,7 +21,6 @@ public class CombateCC : MonoBehaviour
     }
     void Update()
     {
-        posGolpe=ControladorGolpe.position;
         if(tiempoSigAtt>0){
             tiempoSigAtt-= Time.deltaTime;
         }
@@ -35,11 +34,13 @@ public class CombateCC : MonoBehaviour
     {
         animator.SetTrigger("Attack");
         Collider2D[] objetos= Physics2D.OverlapCircleAll(ControladorGolpe.position, radioGolpe);
+        posGolpe=ControladorGolpe.position.x;
+                print(posGolpe);
         foreach (Collider2D colisionador in objetos)
         {
             if(colisionador.CompareTag("Enemy"))
             {
-                colisionador.transform.GetComponent<Enemy>().TomarDaño(dañoGolpe);
+                colisionador.transform.GetComponent<Enemy>().TomarDaño(dañoGolpe,posGolpe);
             }
         }
     }

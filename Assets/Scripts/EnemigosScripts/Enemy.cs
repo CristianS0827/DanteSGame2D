@@ -28,29 +28,32 @@ public class Enemy : MonoBehaviour
 
     private void Start()
     {
-        posG=GetComponent<CombateCC>();
+        posG=GetComponentInChildren<CombateCC>();
         material= GetComponent<Blink>();
         sprite= GetComponent<SpriteRenderer>();
         rb=GetComponent<Rigidbody2D>();
         animator= GetComponent<Animator>();
     }
-    public void TomarDaño(float daño)
+     public void TomarDaño(float daño, float DirGolpe)
     {
         if(!esDañado)
-        {
         vida -= daño;
-        if(posG.posGolpe.x>transform.position.x)
+        if(DirGolpe<transform.position.x)
         {
-        rb.AddForce(new Vector2(kbForceX,kbForceY), ForceMode2D.Force);
+            rb.AddForce(new Vector2(kbForceX,kbForceY), ForceMode2D.Force);
         }else
-        rb.AddForce(new Vector2(kbForceX,kbForceY), ForceMode2D.Force);
-        StartCoroutine(Damager());
+        {
+            rb.AddForce(new Vector2(-kbForceX,kbForceY), ForceMode2D.Force);
         }
+        StartCoroutine(Damager());
         if(vida<=0)
         {
             Muerte();
         }
     }
+    
+
+    
     IEnumerator Damager()
     {
         esDañado=true;

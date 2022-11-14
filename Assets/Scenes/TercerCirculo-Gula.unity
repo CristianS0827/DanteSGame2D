@@ -319,7 +319,7 @@ MonoBehaviour:
   "da\xF1oGolpe": 50
   "esDa\xF1ado": 0
   tiempoEntreAtt: 0.5
-  posGolpe: {x: 0, y: 0, z: 0}
+  posGolpe: 0
   tiempoSigAtt: 0
 --- !u!114 &619724491
 MonoBehaviour:
@@ -337,8 +337,8 @@ MonoBehaviour:
   maxVidaPP: 100
   VidaImagen: {fileID: 0}
   TiempoInmu: 0.5
-  kbForceX: 1000
-  kbForceY: 100
+  kbForceX: 500
+  kbForceY: 10
 --- !u!61 &619724492
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5342,22 +5342,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 8767090129835188266, guid: d1e1ad8ee2b76b14290e5f1f91864cac, type: 3}
   m_PrefabInstance: {fileID: 1933472374}
   m_PrefabAsset: {fileID: 0}
---- !u!70 &1468680472
-CapsuleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1468680465}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.05895877, y: -0.0080038905}
-  m_Size: {x: 0.16243124, y: 0.28325307}
-  m_Direction: 0
 --- !u!114 &1468680473
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5707,7 +5691,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8767090129835188244, guid: d1e1ad8ee2b76b14290e5f1f91864cac, type: 3}
       propertyPath: kbForceX
-      value: 50
+      value: 700
       objectReference: {fileID: 0}
     - target: {fileID: 8767090129835188244, guid: d1e1ad8ee2b76b14290e5f1f91864cac, type: 3}
       propertyPath: kbForceY
@@ -5728,6 +5712,14 @@ PrefabInstance:
     - target: {fileID: 8767090129835188244, guid: d1e1ad8ee2b76b14290e5f1f91864cac, type: 3}
       propertyPath: DamageToGive
       value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 8767090129835188245, guid: d1e1ad8ee2b76b14290e5f1f91864cac, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.9811
+      objectReference: {fileID: 0}
+    - target: {fileID: 8767090129835188245, guid: d1e1ad8ee2b76b14290e5f1f91864cac, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.1567
       objectReference: {fileID: 0}
     - target: {fileID: 8767090129835188246, guid: d1e1ad8ee2b76b14290e5f1f91864cac, type: 3}
       propertyPath: m_SortingLayer
@@ -5751,7 +5743,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8767090129835188247, guid: d1e1ad8ee2b76b14290e5f1f91864cac, type: 3}
       propertyPath: m_CollisionDetection
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8767090129835188264, guid: d1e1ad8ee2b76b14290e5f1f91864cac, type: 3}
       propertyPath: m_Size.x
@@ -5771,7 +5763,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8767090129835188264, guid: d1e1ad8ee2b76b14290e5f1f91864cac, type: 3}
       propertyPath: m_IsTrigger
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8767090129835188264, guid: d1e1ad8ee2b76b14290e5f1f91864cac, type: 3}
       propertyPath: m_EdgeRadius
