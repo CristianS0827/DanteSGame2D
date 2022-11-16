@@ -16,6 +16,14 @@ public class DanteMovimiento : MonoBehaviour
     public float RadioChecker;
     public LayerMask WiPiso;
     private SpriteRenderer spriteRenderer;
+    public static DanteMovimiento Instance;
+
+    private void Awake() {
+      if(Instance==null)
+      {
+        Instance=this;
+      }
+    }
     // Start is called before the first frame update
     void Start()
     {
