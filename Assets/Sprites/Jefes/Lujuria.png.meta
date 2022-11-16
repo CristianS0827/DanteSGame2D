@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -103,7 +103,490 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Lujuria_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 814
+        width: 78
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4f62d9b1d1660742bc8a3eaa543e084
+      internalID: -1196452603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lujuria_1
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 814
+        width: 82
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16c6b79084a06694c9abb1f2a8edd404
+      internalID: 941394387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lujuria_2
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 814
+        width: 80
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6031ddf663f13824e825bbd31215a7f4
+      internalID: -1744983361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lujuria_3
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 814
+        width: 76
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6010779ee565c342a62a83aed2be5d3
+      internalID: 904676472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lujuria_4
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 677
+        width: 78
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 398b67899e70b654dba78e0fa7bd8d52
+      internalID: -524599291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lujuria_5
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 679
+        width: 82
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad1b2b35ecef7a44fa669c07c9bf252c
+      internalID: 220042427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lujuria_6
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 679
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91b37c05bf67e0449b12456656bca132
+      internalID: 816906230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lujuria_7
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 679
+        width: 76
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b854377b7258b5b4c8a4468f1a9cde4e
+      internalID: 791632021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lujuria_8
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 681
+        width: 96
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61d8141d8518ae34184f3b0c0a45d3c6
+      internalID: -1924629021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lujuria_9
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 552
+        width: 83
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98b9437e583df384aad90f2f3f82f5b2
+      internalID: -411628767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lujuria_10
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 552
+        width: 222
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c05fc5e7f6ebc6946b612636df8fd85b
+      internalID: -756807280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lujuria_11
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 552
+        width: 196
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ff7e97fb760b3c4994f53e6a9a74651
+      internalID: 63022660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lujuria_12
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 419
+        width: 144
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 343a57375dc079b46aba4c6df39c6f2a
+      internalID: -1494759165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lujuria_13
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 419
+        width: 112
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97baebe3a9e2f6845a6051a06c7a4aa6
+      internalID: 973438680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lujuria_14
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 273
+        width: 72
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 147f983810ebf7844a1343b06722a44f
+      internalID: -1823937810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lujuria_15
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 273
+        width: 66
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a402bcb6c0916264a877f888ca4880ab
+      internalID: -914657440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lujuria_16
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 273
+        width: 118
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce208311b0e847d4fb2e75271e7f5c89
+      internalID: 2053915333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lujuria_17
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 273
+        width: 102
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3377091b763c6d4c81ea7059a509456
+      internalID: 1787650328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lujuria_18
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 150
+        width: 102
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ad9256736025364eb7a227d10037c78
+      internalID: -72579344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lujuria_24
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 34
+        width: 91
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd59163b798563d4fbbffa540fb945ca
+      internalID: -1159409765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lujuria_25
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 37
+        width: 117
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fd80d6bc3db3fb4c866e6775c1fe84c
+      internalID: -754820368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lujuria_26
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 36
+        width: 131
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4190f857ab822247b5c0fc336bf96f7
+      internalID: -1608054659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lujuria_19
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 31
+        width: 154
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 502ac49d475caa341bd4587ad89d19e3
+      internalID: 1855902861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -114,7 +597,48 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Lujuria_22: 1208902562
+      Lujuria_26: -1608054659
+      Lujuria_38: 408092890
+      Lujuria_31: 1124331566
+      Lujuria_3: 904676472
+      Lujuria_10: -756807280
+      Lujuria_28: 1999905157
+      Lujuria_19: 1855902861
+      Lujuria_18: -72579344
+      Lujuria_2: -1744983361
+      Lujuria_6: 816906230
+      Lujuria_32: -416470606
+      Lujuria_36: -1999394874
+      Lujuria_33: -2049955936
+      Lujuria_5: 220042427
+      Lujuria_39: -1066415371
+      Lujuria_29: 928081032
+      Lujuria_0: -1196452603
+      Lujuria_23: -1361683043
+      Lujuria_14: -1823937810
+      Lujuria_37: -1524974742
+      Lujuria_21: 554933920
+      Lujuria_15: -914657440
+      Lujuria_1: 941394387
+      Lujuria_4: -524599291
+      Lujuria_17: 1787650328
+      Lujuria_34: -1629927747
+      Lujuria_7: 791632021
+      Lujuria_40: 1981496778
+      Lujuria_30: 513247551
+      Lujuria_35: -332688867
+      Lujuria_13: 973438680
+      Lujuria_25: -754820368
+      Lujuria_27: 1992512273
+      Lujuria_8: -1924629021
+      Lujuria_20: 1339924682
+      Lujuria_16: 2053915333
+      Lujuria_24: -1159409765
+      Lujuria_9: -411628767
+      Lujuria_12: -1494759165
+      Lujuria_11: 63022660
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

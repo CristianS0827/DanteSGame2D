@@ -19,7 +19,7 @@ public class SubArmas : MonoBehaviour
     }
     public void UsarArmaSecond()
     {
-        if(Input.GetButtonDown("Fire2")&& cost<Arrojables.instance.cantidadArrojables+1)
+        if(Input.GetButtonDown("Fire2") || Input.GetKeyDown(KeyCode.LeftShift)&& cost<Arrojables.instance.cantidadArrojables+1)
         {
             Arrojables.instance.Arrojable(-cost);
             GameObject nArrojable=Instantiate(dagas, transform.position, Quaternion.Euler(0,0,-132));

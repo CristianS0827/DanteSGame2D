@@ -133,7 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3543321}
   - component: {fileID: 3543322}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: dark_castle_tileset_36 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -195,7 +195,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 1914562614, guid: 437e76fe3b22dc8408ec529741f70c7c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -217,7 +217,7 @@ GameObject:
   m_Component:
   - component: {fileID: 32824590}
   - component: {fileID: 32824591}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: dark_castle_tileset_36 (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -279,7 +279,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 1914562614, guid: 437e76fe3b22dc8408ec529741f70c7c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -654,7 +654,7 @@ GameObject:
   m_Component:
   - component: {fileID: 120588195}
   - component: {fileID: 120588196}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: dark_castle_tileset_5 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -716,7 +716,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 1753145469, guid: 437e76fe3b22dc8408ec529741f70c7c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -795,7 +795,7 @@ GameObject:
   m_Component:
   - component: {fileID: 153256076}
   - component: {fileID: 153256077}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: dark_castle_tileset_5 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -857,7 +857,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 1753145469, guid: 437e76fe3b22dc8408ec529741f70c7c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -879,7 +879,7 @@ GameObject:
   m_Component:
   - component: {fileID: 178231250}
   - component: {fileID: 178231251}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: dark_castle_tileset_5 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -941,7 +941,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 1753145469, guid: 437e76fe3b22dc8408ec529741f70c7c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -963,7 +963,7 @@ GameObject:
   m_Component:
   - component: {fileID: 185883451}
   - component: {fileID: 185883452}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: dark_castle_tileset_5 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1025,7 +1025,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 1753145469, guid: 437e76fe3b22dc8408ec529741f70c7c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1047,7 +1047,7 @@ GameObject:
   m_Component:
   - component: {fileID: 227212976}
   - component: {fileID: 227212977}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: dark_castle_tileset_5 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1109,7 +1109,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 1753145469, guid: 437e76fe3b22dc8408ec529741f70c7c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1488,7 +1488,7 @@ GameObject:
   m_Component:
   - component: {fileID: 270267667}
   - component: {fileID: 270267668}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: dark_castle_tileset_36 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1550,7 +1550,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 1914562614, guid: 437e76fe3b22dc8408ec529741f70c7c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1572,7 +1572,7 @@ GameObject:
   m_Component:
   - component: {fileID: 271651579}
   - component: {fileID: 271651580}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: dark_castle_tileset_36 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1634,7 +1634,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 1914562614, guid: 437e76fe3b22dc8408ec529741f70c7c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1656,7 +1656,7 @@ GameObject:
   m_Component:
   - component: {fileID: 282085945}
   - component: {fileID: 282085946}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: dark_castle_tileset_5 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1718,7 +1718,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 1753145469, guid: 437e76fe3b22dc8408ec529741f70c7c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1740,7 +1740,7 @@ GameObject:
   m_Component:
   - component: {fileID: 383080129}
   - component: {fileID: 383080130}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: dark_castle_tileset_36 (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1802,7 +1802,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 1914562614, guid: 437e76fe3b22dc8408ec529741f70c7c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1829,7 +1829,7 @@ GameObject:
   m_Component:
   - component: {fileID: 407078450}
   - component: {fileID: 407078451}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: dark_castle_tileset_5 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1891,7 +1891,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 1753145469, guid: 437e76fe3b22dc8408ec529741f70c7c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2011,7 +2011,7 @@ GameObject:
   m_Component:
   - component: {fileID: 427426269}
   - component: {fileID: 427426270}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: dark_castle_tileset_36 (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2073,7 +2073,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 1914562614, guid: 437e76fe3b22dc8408ec529741f70c7c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2102,7 +2102,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1424019918204995456, guid: ed401c343722e7842a247de1326b666c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.07
+      value: -1.303
       objectReference: {fileID: 0}
     - target: {fileID: 1424019918204995456, guid: ed401c343722e7842a247de1326b666c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2136,6 +2136,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1424019918204995459, guid: ed401c343722e7842a247de1326b666c, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -656580592, guid: 437e76fe3b22dc8408ec529741f70c7c, type: 3}
     - target: {fileID: 1424019918204995460, guid: ed401c343722e7842a247de1326b666c, type: 3}
       propertyPath: m_Name
       value: Cristal (3)
@@ -2152,7 +2156,7 @@ GameObject:
   m_Component:
   - component: {fileID: 462100826}
   - component: {fileID: 462100827}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: dark_castle_tileset_5 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2214,7 +2218,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 1753145469, guid: 437e76fe3b22dc8408ec529741f70c7c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2529,7 +2533,7 @@ GameObject:
   m_Component:
   - component: {fileID: 493940889}
   - component: {fileID: 493940890}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: dark_castle_tileset_36 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2591,7 +2595,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 1914562614, guid: 437e76fe3b22dc8408ec529741f70c7c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2613,7 +2617,7 @@ GameObject:
   m_Component:
   - component: {fileID: 497546776}
   - component: {fileID: 497546777}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: dark_castle_tileset_5 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2675,7 +2679,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 1753145469, guid: 437e76fe3b22dc8408ec529741f70c7c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2759,7 +2763,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 512697956}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.9351, y: -2.2475, z: 0}
+  m_LocalPosition: {x: -2.661, y: -2.2475, z: 0}
   m_LocalScale: {x: 3.09077, y: 2.3628898, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2831,7 +2835,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.19230586, y: 0.08457148}
+  m_Offset: {x: -0.19144988, y: 0.080902755}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -2842,7 +2846,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.06499231, y: 1.2125132}
+  m_Size: {x: 0.035883784, y: 1.2198507}
   m_EdgeRadius: 0
 --- !u!114 &512697960
 MonoBehaviour:
@@ -2923,7 +2927,7 @@ GameObject:
   m_Component:
   - component: {fileID: 555758875}
   - component: {fileID: 555758876}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: dark_castle_tileset_5 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2985,7 +2989,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 1753145469, guid: 437e76fe3b22dc8408ec529741f70c7c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3084,7 +3088,7 @@ GameObject:
   - component: {fileID: 673940447}
   - component: {fileID: 673940449}
   - component: {fileID: 673940448}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Muro (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3149,7 +3153,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 2
+  m_GravityScale: 1.5
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -3268,7 +3272,7 @@ GameObject:
   m_Component:
   - component: {fileID: 757350203}
   - component: {fileID: 757350204}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: dark_castle_tileset_36 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3330,7 +3334,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 1914562614, guid: 437e76fe3b22dc8408ec529741f70c7c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3442,7 +3446,7 @@ GameObject:
   m_Component:
   - component: {fileID: 783010686}
   - component: {fileID: 783010687}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: dark_castle_tileset_5 (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3504,7 +3508,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 1753145469, guid: 437e76fe3b22dc8408ec529741f70c7c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3531,7 +3535,7 @@ GameObject:
   m_Component:
   - component: {fileID: 882879295}
   - component: {fileID: 882879296}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: dark_castle_tileset_36 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3593,7 +3597,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 1914562614, guid: 437e76fe3b22dc8408ec529741f70c7c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3615,7 +3619,7 @@ GameObject:
   m_Component:
   - component: {fileID: 883907394}
   - component: {fileID: 883907395}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: dark_castle_tileset_36
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3677,7 +3681,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 1914562614, guid: 437e76fe3b22dc8408ec529741f70c7c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3779,7 +3783,7 @@ GameObject:
   m_Component:
   - component: {fileID: 905815098}
   - component: {fileID: 905815099}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: dark_castle_tileset_36 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3841,7 +3845,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 1914562614, guid: 437e76fe3b22dc8408ec529741f70c7c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3945,7 +3949,7 @@ GameObject:
   - component: {fileID: 954815591}
   - component: {fileID: 954815593}
   - component: {fileID: 954815592}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Muro
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4010,7 +4014,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 2
+  m_GravityScale: 1.5
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -4052,7 +4056,7 @@ GameObject:
   m_Component:
   - component: {fileID: 958720416}
   - component: {fileID: 958720417}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: dark_castle_tileset_36 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4114,7 +4118,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 1914562614, guid: 437e76fe3b22dc8408ec529741f70c7c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -4136,7 +4140,7 @@ GameObject:
   m_Component:
   - component: {fileID: 962921685}
   - component: {fileID: 962921686}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: dark_castle_tileset_5 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4198,7 +4202,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 1753145469, guid: 437e76fe3b22dc8408ec529741f70c7c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -4220,7 +4224,7 @@ GameObject:
   m_Component:
   - component: {fileID: 974796563}
   - component: {fileID: 974796564}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: dark_castle_tileset_36 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4282,7 +4286,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 1914562614, guid: 437e76fe3b22dc8408ec529741f70c7c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -4304,7 +4308,7 @@ GameObject:
   m_Component:
   - component: {fileID: 975373441}
   - component: {fileID: 975373442}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: dark_castle_tileset_5 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4366,7 +4370,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 1753145469, guid: 437e76fe3b22dc8408ec529741f70c7c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -4533,7 +4537,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1064053102}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 22.69, y: -2.31, z: -10}
+  m_LocalPosition: {x: 22.57, y: -2.2399998, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4762,7 +4766,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1585e19c486e6274eb80f942c3d20db2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Velocidad: 1
+  Velocidad: 1.4
   FuerzaSalto: 200
   PisandoSuelo: 0
   Check: {fileID: 485382855}
@@ -4893,7 +4897,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1096882288}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 22.69, y: -2.63, z: 0}
+  m_LocalPosition: {x: 22.57, y: -2.56, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -5012,7 +5016,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1134754655}
   - component: {fileID: 1134754656}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: dark_castle_tileset_36 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5074,7 +5078,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 1914562614, guid: 437e76fe3b22dc8408ec529741f70c7c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -5096,7 +5100,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1138920984}
   - component: {fileID: 1138920985}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: dark_castle_tileset_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5158,7 +5162,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 1753145469, guid: 437e76fe3b22dc8408ec529741f70c7c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -5260,7 +5264,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1147702320}
   - component: {fileID: 1147702321}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: dark_castle_tileset_36
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5322,7 +5326,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 1914562614, guid: 437e76fe3b22dc8408ec529741f70c7c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -5349,7 +5353,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1182515910}
   - component: {fileID: 1182515911}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: dark_castle_tileset_5 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5411,7 +5415,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 1753145469, guid: 437e76fe3b22dc8408ec529741f70c7c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -5433,7 +5437,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1225492215}
   - component: {fileID: 1225492216}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: dark_castle_tileset_36 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5495,7 +5499,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 1914562614, guid: 437e76fe3b22dc8408ec529741f70c7c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -5527,6 +5531,7 @@ GameObject:
   - component: {fileID: 1251304123}
   - component: {fileID: 1251304124}
   - component: {fileID: 1251304125}
+  - component: {fileID: 1251304126}
   m_Layer: 5
   m_Name: GameManager
   m_TagString: Untagged
@@ -5615,6 +5620,7 @@ RectTransform:
   - {fileID: 683210913}
   - {fileID: 1307644426}
   - {fileID: 1074906555}
+  - {fileID: 1687772259}
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5665,6 +5671,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   panelBoss: {fileID: 1074906554}
   MuroLim: {fileID: 1427251929}
+--- !u!114 &1251304126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1251304118}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebf0a2dbd7c72194a8643a8d1438ca90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pauseMenu: {fileID: 1687772256}
 --- !u!1 &1282842063
 GameObject:
   m_ObjectHideFlags: 0
@@ -5776,7 +5795,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1283880859}
   - component: {fileID: 1283880860}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: dark_castle_tileset_36 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5838,7 +5857,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 1914562614, guid: 437e76fe3b22dc8408ec529741f70c7c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -5913,7 +5932,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1304216797}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 22.69, y: -2.31, z: -10}
+  m_LocalPosition: {x: 22.57, y: -2.2399998, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -6065,7 +6084,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1312243783}
   - component: {fileID: 1312243784}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: dark_castle_tileset_36 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6127,7 +6146,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 1914562614, guid: 437e76fe3b22dc8408ec529741f70c7c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -6202,7 +6221,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1338065276}
   - component: {fileID: 1338065277}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: dark_castle_tileset_5 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6264,7 +6283,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 1753145469, guid: 437e76fe3b22dc8408ec529741f70c7c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -6286,7 +6305,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1341374582}
   - component: {fileID: 1341374583}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: dark_castle_tileset_5 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6348,7 +6367,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 1753145469, guid: 437e76fe3b22dc8408ec529741f70c7c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -6370,7 +6389,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1383072859}
   - component: {fileID: 1383072860}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: dark_castle_tileset_5 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6432,7 +6451,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 1753145469, guid: 437e76fe3b22dc8408ec529741f70c7c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -6454,7 +6473,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1406324939}
   - component: {fileID: 1406324940}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: dark_castle_tileset_36 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6516,7 +6535,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 1914562614, guid: 437e76fe3b22dc8408ec529741f70c7c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -6538,7 +6557,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1415155302}
   - component: {fileID: 1415155303}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: dark_castle_tileset_5 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6600,7 +6619,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 1753145469, guid: 437e76fe3b22dc8408ec529741f70c7c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -29489,7 +29508,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1435389772}
   - component: {fileID: 1435389773}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: dark_castle_tileset_36 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29551,7 +29570,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 1914562614, guid: 437e76fe3b22dc8408ec529741f70c7c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -29611,7 +29630,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1505662121}
   - component: {fileID: 1505662122}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: dark_castle_tileset_5 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29673,7 +29692,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 1753145469, guid: 437e76fe3b22dc8408ec529741f70c7c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -29957,7 +29976,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1574060404}
   - component: {fileID: 1574060405}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: dark_castle_tileset_36 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30019,7 +30038,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 1914562614, guid: 437e76fe3b22dc8408ec529741f70c7c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -30041,7 +30060,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1588356508}
   - component: {fileID: 1588356509}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: dark_castle_tileset_5 (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30103,7 +30122,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 1753145469, guid: 437e76fe3b22dc8408ec529741f70c7c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -30125,7 +30144,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1611063722}
   - component: {fileID: 1611063723}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: dark_castle_tileset_36 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30187,7 +30206,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 1914562614, guid: 437e76fe3b22dc8408ec529741f70c7c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -30209,7 +30228,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1614626025}
   - component: {fileID: 1614626026}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: dark_castle_tileset_36 (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30271,7 +30290,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 1914562614, guid: 437e76fe3b22dc8408ec529741f70c7c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -30517,7 +30536,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1682867990}
   - component: {fileID: 1682867991}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: dark_castle_tileset_36 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30579,7 +30598,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 1914562614, guid: 437e76fe3b22dc8408ec529741f70c7c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -30601,7 +30620,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1683668144}
   - component: {fileID: 1683668145}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: dark_castle_tileset_5 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30663,7 +30682,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 1753145469, guid: 437e76fe3b22dc8408ec529741f70c7c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -30675,6 +30694,83 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1687772256
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1687772259}
+  - component: {fileID: 1687772258}
+  - component: {fileID: 1687772257}
+  m_Layer: 5
+  m_Name: PausedMenu
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1687772257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1687772256}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 392218c362ae54f0f95bcafd5379defd, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1687772258
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1687772256}
+  m_CullTransparentMesh: 1
+--- !u!224 &1687772259
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1687772256}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2095233685}
+  m_Father: {fileID: 1251304122}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1703938062
 GameObject:
   m_ObjectHideFlags: 0
@@ -30748,7 +30844,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 392218c362ae54f0f95bcafd5379defd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -30923,7 +31019,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1855927424}
   - component: {fileID: 1855927425}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: dark_castle_tileset_5 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30985,7 +31081,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 1753145469, guid: 437e76fe3b22dc8408ec529741f70c7c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -31085,7 +31181,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1906318903}
   - component: {fileID: 1906318904}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: dark_castle_tileset_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31147,7 +31243,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 1753145469, guid: 437e76fe3b22dc8408ec529741f70c7c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -31502,7 +31598,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1942811442}
   - component: {fileID: 1942811443}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: dark_castle_tileset_5 (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31564,7 +31660,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 1753145469, guid: 437e76fe3b22dc8408ec529741f70c7c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -31591,7 +31687,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1996264255}
   - component: {fileID: 1996264256}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: dark_castle_tileset_36 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31653,7 +31749,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 1914562614, guid: 437e76fe3b22dc8408ec529741f70c7c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -31675,7 +31771,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2025364103}
   - component: {fileID: 2025364104}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: dark_castle_tileset_5 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31737,7 +31833,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 1753145469, guid: 437e76fe3b22dc8408ec529741f70c7c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -31759,7 +31855,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2057264093}
   - component: {fileID: 2057264094}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: dark_castle_tileset_36 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31821,7 +31917,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 1914562614, guid: 437e76fe3b22dc8408ec529741f70c7c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -31843,7 +31939,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2075743389}
   - component: {fileID: 2075743390}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: dark_castle_tileset_5 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31905,7 +32001,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 1753145469, guid: 437e76fe3b22dc8408ec529741f70c7c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -31917,6 +32013,86 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &2095233684
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2095233685}
+  - component: {fileID: 2095233687}
+  - component: {fileID: 2095233686}
+  m_Layer: 5
+  m_Name: PauseText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2095233685
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2095233684}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1687772259}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 210.41989}
+  m_SizeDelta: {x: 0, y: 659.1702}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2095233686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2095233684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 83
+    m_FontStyle: 1
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 83
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: PAUSE
+--- !u!222 &2095233687
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2095233684}
+  m_CullTransparentMesh: 1
 --- !u!1 &2095591409
 GameObject:
   m_ObjectHideFlags: 0
@@ -31927,7 +32103,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2095591410}
   - component: {fileID: 2095591411}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: dark_castle_tileset_36 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31989,7 +32165,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 1914562614, guid: 437e76fe3b22dc8408ec529741f70c7c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -32011,7 +32187,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2107777464}
   - component: {fileID: 2107777465}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: dark_castle_tileset_5 (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32073,7 +32249,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 1753145469, guid: 437e76fe3b22dc8408ec529741f70c7c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -32168,7 +32344,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2135897931}
   - component: {fileID: 2135897932}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: dark_castle_tileset_36 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32230,7 +32406,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 1914562614, guid: 437e76fe3b22dc8408ec529741f70c7c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
