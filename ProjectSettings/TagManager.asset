@@ -9,6 +9,8 @@ TagManager:
   - Enemies
   - Enemy
   - Jefes
+  - Item
+  - Coin
   layers:
   - Default
   - TransparentFX
@@ -19,8 +21,8 @@ TagManager:
   - Piso
   - Enemies
   - Player
-  - 
-  - 
+  - Item
+  - Coins
   - 
   - 
   - 
@@ -60,4 +62,7 @@ TagManager:
     locked: 0
   - name: UI
     uniqueID: 3939500099
+    locked: 0
+  - name: Coin
+    uniqueID: 2894817931
     locked: 0

@@ -19,6 +19,8 @@ public class EnemyMove : MonoBehaviour
     public bool Patruyando;
     public bool Caminando;
     public bool moviendoDerecha;
+    public bool DebeEsp;
+    private bool EstaEsp;
     public bool HayPared;
     public bool HaySuelo;
     public bool HayPresi;
@@ -26,6 +28,7 @@ public class EnemyMove : MonoBehaviour
     public bool IrB;
 
     public float RadioDeteccion;
+    public float TiempoEsp;
 
 
 
@@ -75,9 +78,19 @@ public class EnemyMove : MonoBehaviour
        {
         if(IrA)
         {
-            rb.velocity=new Vector2(velocidad, rb.velocity.y);
+            if(!EstaEsp)
+            {
+                ani.SetBool("Idle",false);
+                rb.velocity=new Vector2(velocidad, rb.velocity.y);
+            }
+            
             if(Vector2.Distance(transform.position,PuntoA.position)<0.2f)
             {
+                if(DebeEsp)
+                {
+                    StartCoroutine(Esperar());
+                }
+
                 Girar();
                 IrA=false;
                 IrB=true;
@@ -85,9 +98,19 @@ public class EnemyMove : MonoBehaviour
         }
         if(IrB)
         {
-            rb.velocity=new Vector2(-velocidad, rb.velocity.y);
+            if(!EstaEsp)
+            {
+                ani.SetBool("Idle",false);
+                rb.velocity=new Vector2(-velocidad, rb.velocity.y);
+            }
+            
             if(Vector2.Distance(transform.position,PuntoB.position)<0.2f)
             {
+                if(DebeEsp)
+                {
+                    StartCoroutine(Esperar());
+                }
+
                 Girar();
                 IrA=true;
                 IrB=false;
@@ -97,6 +120,16 @@ public class EnemyMove : MonoBehaviour
         
     }  
      
+    }
+    IEnumerator Esperar()
+    {
+        ani.SetBool("Idle",true);
+        EstaEsp=true;
+        Girar();
+        yield return new WaitForSeconds(TiempoEsp);
+        EstaEsp=false;
+        ani.SetBool("Idle",false);
+        Girar();
     }
     private void Girar()
     {
