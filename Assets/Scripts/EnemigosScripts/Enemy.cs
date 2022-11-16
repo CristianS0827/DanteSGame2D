@@ -10,18 +10,13 @@ public class Enemy : MonoBehaviour
     public float kbForceX;
     public float kbForceY;
     public float DamageToGive;
-    public float velocidadcorr;
     public float velocidad;
-    public float distancia;
     public string EnemyName;
-    public bool IrA,IrB;
-    private bool moviendoDerecha;
+    
     private Animator animator;
     public CombateCC posG;
     private Rigidbody2D rb;
-    public Transform ControladorSuelo;
-    public Transform PuntoA;
-    public Transform PuntoB;
+
 
     [SerializeField] public bool esDañado;
     [SerializeField] SpriteRenderer sprite;
@@ -29,11 +24,9 @@ public class Enemy : MonoBehaviour
 
     private void Start()
     {
-        posG=GetComponentInChildren<CombateCC>();
         material= GetComponent<Blink>();
         sprite= GetComponent<SpriteRenderer>();
         rb=GetComponent<Rigidbody2D>();
-        animator= GetComponent<Animator>();
     }
 
      public void TomarDaño(float daño, float DirGolpe)
@@ -73,26 +66,7 @@ public class Enemy : MonoBehaviour
 
     private void Update()
     {
-       RaycastHit2D informacionSuelo= Physics2D.Raycast(ControladorSuelo.position, Vector2.down, distancia);
-       rb.velocity=new Vector2(velocidad,rb.velocity.y);
 
-       if(informacionSuelo==false)
-       {
-        Girar();
-       }
     }
-    
-    private void Girar()
-    {
-        moviendoDerecha = !moviendoDerecha;
-        transform.eulerAngles= new Vector3(0, transform.eulerAngles.y+180,0);
-        velocidad*= -1;
+       
     }
-
-    private void OnDrawGizmos() {
-        Gizmos.color= Color.red;
-        Gizmos.DrawLine(ControladorSuelo.transform.position, ControladorSuelo.transform.position+Vector3.down*distancia);
-    }
-
-   
-}
