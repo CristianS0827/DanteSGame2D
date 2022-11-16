@@ -8,9 +8,9 @@ public class DanteHealth : MonoBehaviour
 {
     public float VidaPP;
     public float maxVidaPP;
-    public Image VidaImagen;
+    public Image VidaImage;
 
-    bool EsInmune;
+    public bool EsInmune;
     public float TiempoInmu;
     SpriteRenderer sprite;
     Blink material;
@@ -30,7 +30,7 @@ public class DanteHealth : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // VidaImagen.fillAmount=VidaPP/100;
+        VidaImage.fillAmount=VidaPP/200;
         if(VidaPP>maxVidaPP)
         {
             VidaPP=maxVidaPP;

@@ -6,25 +6,26 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    public float velocidad;
-    public Transform ControladorSuelo;
-    public float distancia;
-    
-    private bool moviendoDerecha;
-    private Animator animator;
     public float vida;
     public float kbForceX;
     public float kbForceY;
-    public string EnemyName;
     public float DamageToGive;
     public float velocidadcorr;
+    public float velocidad;
+    public float distancia;
+    public string EnemyName;
+    public bool IrA,IrB;
+    private bool moviendoDerecha;
+    private Animator animator;
+    public CombateCC posG;
     private Rigidbody2D rb;
+    public Transform ControladorSuelo;
+    public Transform PuntoA;
+    public Transform PuntoB;
+
     [SerializeField] public bool esDañado;
     [SerializeField] SpriteRenderer sprite;
     Blink material;
-    public CombateCC posG;
-    
-    
 
     private void Start()
     {
@@ -34,6 +35,7 @@ public class Enemy : MonoBehaviour
         rb=GetComponent<Rigidbody2D>();
         animator= GetComponent<Animator>();
     }
+
      public void TomarDaño(float daño, float DirGolpe)
     {
         if(!esDañado)
@@ -52,7 +54,6 @@ public class Enemy : MonoBehaviour
         }
     }
     
-
     
     IEnumerator Damager()
     {
@@ -62,6 +63,7 @@ public class Enemy : MonoBehaviour
         esDañado=false;
         sprite.material=material.original;
     }
+
     private void Muerte()
     {
         animator.SetTrigger("Muerte");
@@ -79,6 +81,7 @@ public class Enemy : MonoBehaviour
         Girar();
        }
     }
+    
     private void Girar()
     {
         moviendoDerecha = !moviendoDerecha;
