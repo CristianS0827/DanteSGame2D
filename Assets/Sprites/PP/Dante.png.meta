@@ -130,8 +130,8 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 42
-        y: 990
-        width: 74
+        y: 991
+        width: 75
         height: 55
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -255,10 +255,10 @@ TextureImporter:
       name: DanteRun00
       rect:
         serializedVersion: 2
-        x: 34
+        x: 45
         y: 305
-        width: 88
-        height: 64
+        width: 75
+        height: 55
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -276,10 +276,10 @@ TextureImporter:
       name: DanteRun01
       rect:
         serializedVersion: 2
-        x: 173
-        y: 306
-        width: 88
-        height: 64
+        x: 177
+        y: 305
+        width: 75
+        height: 55
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -299,8 +299,8 @@ TextureImporter:
         serializedVersion: 2
         x: 314
         y: 306
-        width: 88
-        height: 64
+        width: 75
+        height: 55
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -320,8 +320,8 @@ TextureImporter:
         serializedVersion: 2
         x: 444
         y: 306
-        width: 88
-        height: 64
+        width: 75
+        height: 55
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -341,8 +341,8 @@ TextureImporter:
         serializedVersion: 2
         x: 577
         y: 306
-        width: 88
-        height: 64
+        width: 75
+        height: 55
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -360,10 +360,10 @@ TextureImporter:
       name: DanteRun05
       rect:
         serializedVersion: 2
-        x: 715
-        y: 305
-        width: 88
-        height: 64
+        x: 727
+        y: 306
+        width: 75
+        height: 55
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -697,7 +697,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 582
-        y: 853
+        y: 854
         width: 75
         height: 55
       alignment: 0
@@ -990,7 +990,7 @@ TextureImporter:
       name: DanteRepose24
       rect:
         serializedVersion: 2
-        x: 34
+        x: 35
         y: 443
         width: 75
         height: 55
@@ -1032,8 +1032,8 @@ TextureImporter:
       name: DanteRepose26
       rect:
         serializedVersion: 2
-        x: 308
-        y: 444
+        x: 295
+        y: 443
         width: 75
         height: 55
       alignment: 0
@@ -1149,15 +1149,15 @@ TextureImporter:
       Dante_188: 1178986645
       DanteRepose11: -813520934
       Dante_79: -755413870
-      Dante_90: -619441865
-      Dante_103: -1978537842
+      DanteAttack04: 1830498318
       DanteRepose14: 430139909
+      Dante_103: -1978537842
       DanteRepose08: 91137471
       Dante_109: 1043603816
       Dante_136: 1583008621
       Dante_43: -1513494014
       Dante_39: -947746803
-      DanteAttack04: 1830498318
+      Dante_90: -619441865
       Dante_131: -1466492534
       Dante_105: -1250298762
       Dante_149: -1064696638
@@ -1246,6 +1246,7 @@ TextureImporter:
       Dante_172: -408550700
       Dante_63: 677620878
       DanteRepose04: -1381942160
+      Dante_0: 1188063293
       Dante_179: -745116713
       Dante_144: 803676861
       Dante_162: 1479299210

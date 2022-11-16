@@ -15,9 +15,11 @@ public class DanteMovimiento : MonoBehaviour
     public Transform Check;
     public float RadioChecker;
     public LayerMask WiPiso;
+    private SpriteRenderer spriteRenderer;
     // Start is called before the first frame update
     void Start()
     {
+        spriteRenderer=GetComponent<SpriteRenderer>();
         Rigidbody2D= GetComponent<Rigidbody2D>();
         Animator= GetComponent<Animator>();
     }
@@ -27,8 +29,8 @@ public class DanteMovimiento : MonoBehaviour
     {
       // Attack();
       Horizontal = Input.GetAxisRaw("Horizontal"); 
-      if (Horizontal<0.0f) transform.localScale= new Vector3(-0.3333f,0.3333f,0.3333f);
-      else if(Horizontal>0.0f) transform.localScale = new Vector3(0.3333f,0.3333f,0.3333f);
+      if (Horizontal>0.0f) transform.localScale= new Vector3 ( 1, 1 , 1 ) ;
+      else if(Horizontal<0.0f) transform.localScale= new Vector3 ( -1 , 1 , 1 ) ;
       Animator.SetBool("Corriendo",Horizontal != 0.0f);
       PisandoSuelo= Physics2D.OverlapCircle(Check.position, RadioChecker,WiPiso);
       if (Input.GetKeyDown(KeyCode.W) && PisandoSuelo==true)

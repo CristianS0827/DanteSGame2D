@@ -58,7 +58,6 @@ public class DanteHealth : MonoBehaviour
             EsInmune=true;
             sprite.material=material.blink;
             yield return new WaitForSeconds(TiempoInmu);
-            StartCoroutine(Inmunity());
             sprite.material=material.original;
             EsInmune=false;
         }
