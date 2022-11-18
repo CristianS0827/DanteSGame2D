@@ -99,7 +99,7 @@ La metodologia Scrum apliacada al proyecto se hace mediante ciclos de corto peri
 
 ### 4.1 REQUERIMIENTOS 
 los requerimientos planteados para el funcionamiento del videojuego se evidencias en la siguiente tabla
-|OS|Procesador|Memoria|Graficos|DirectX|Red|Almacenamiento
+|OS|Procesador|Memoria|Graficos|DirectX|Red|Almacenamiento|
 |--|--|--|--|--|--|--|--|
 |Windows 7 o superior|Intel Core 2.5 GHz o equivalente  |1 GB Ram|Integrados|Version 11|Conexion a internet|2 GB espacio libre|
 
