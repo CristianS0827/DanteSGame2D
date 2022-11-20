@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class BossComportamiento : MonoBehaviour
 {
@@ -8,35 +9,73 @@ public class BossComportamiento : MonoBehaviour
     public float countdown;
     public float tiempoCambioPos;
     public float countdownPos;
+    public float bossVida;
+    public float vidaActual;
+    public Image barraVidaBoss;
     public Transform[] transforms;
     public GameObject GhostFlame;
     void Start()
     {
-      var posicionInicial= Random.Range(0, transforms.Length);
-      transform.position=transforms[posicionInicial].position;  
+    var posicionInicial= 1;
+      transform.position=transforms[posicionInicial].position;
+      countdown=tiempoDisparo;
+      countdownPos=tiempoCambioPos;  
     }
 
-    public void disparoAJugador()
+    public void DisparoAJugador()
     {
         GameObject summon= Instantiate(GhostFlame,transform.position, Quaternion.identity);
-
     }
-    public void cambioDePosicion()
+    public void CambioDePosicion()
     {
       var posicionInicial= Random.Range(0, transforms.Length);
       transform.position=transforms[posicionInicial].position;
     }
 
+    public void DañoBoss()
+    {
+        
+        vidaActual=GetComponent<Enemy>().vida;
+        barraVidaBoss.fillAmount=vidaActual/bossVida;
+
+    }
+    public void BossScale()
+    {
+        if(transform.position.x > DanteMovimiento.Instance.transform.position.x)
+        {
+            transform.localScale=new Vector3(-1,1,1);
+        }
+        else
+        {
+            transform.localScale=new Vector3(1,1,1);   
+        }
+    }
+    private void OnDestroy() 
+    {
+        BossUI.instance.DesactivarBoss();
+    }
+    public void CountDowns ()
+    {       
+        countdown -= Time.deltaTime;
+        countdownPos-=Time.deltaTime;
+        if(countdown<0)
+        {
+            DisparoAJugador();
+            countdown=tiempoDisparo;
+        }
+        if(countdownPos<=0)
+        {
+            countdownPos=tiempoCambioPos;
+            CambioDePosicion();
+        }
+    }
+
     // Update is called once per frame
     void Update()
     {
-        countdown -= Time.deltaTime;
-        if(countdown<0)
-        {
-            disparoAJugador();
-            countdown=tiempoDisparo;
-            cambioDePosicion();
-        }
-        
+        CountDowns();
+        DañoBoss();
+        BossScale();
+    
     }
 }
