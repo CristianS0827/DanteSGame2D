@@ -25,6 +25,7 @@ public class BossComportamiento : MonoBehaviour
     public void DisparoAJugador()
     {
         GameObject summon= Instantiate(GhostFlame,transform.position, Quaternion.identity);
+        AudioManager.instance.PlayAudio(AudioManager.instance.summonJefe);
     }
     public void CambioDePosicion()
     {

@@ -42,6 +42,7 @@ public class Enemy : MonoBehaviour
     {
         if(!esDañado)
         vida -= daño;
+        AudioManager.instance.PlayAudio(AudioManager.instance.dañoEnemigo);
         if(DirGolpe<transform.position.x)
         {
             rb.AddForce(new Vector2(kbForceX,kbForceY), ForceMode2D.Force);
@@ -68,6 +69,7 @@ public class Enemy : MonoBehaviour
         {
             animator.SetTrigger("Death");
             Destroy(gameObject, (float)0.3);
+            AudioManager.instance.PlayAudio(AudioManager.instance.muerteEnemigo);
         }
     }
 

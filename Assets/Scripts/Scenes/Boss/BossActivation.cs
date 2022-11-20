@@ -25,7 +25,7 @@ public class BossActivation : MonoBehaviour
         var VelocidadActual= DanteMovimiento.Instance.Velocidad;
         DanteMovimiento.Instance.Velocidad=0;
         bossGo.SetActive(true);
-        yield return new WaitForSeconds(3f);
+        yield return new WaitForSeconds(1f);
         DanteMovimiento.Instance.Velocidad=VelocidadActual;
         Destroy(gameObject);
     }
