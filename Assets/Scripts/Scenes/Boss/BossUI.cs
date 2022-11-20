@@ -27,6 +27,12 @@ public class BossUI : MonoBehaviour
         MuroLim.SetActive(true);
     }
 
+    public void DesactivarBoss()
+    {
+        panelBoss.SetActive(false);
+        MuroLim.SetActive(false);
+    }
+
     // Update is called once per frame
     void Update()
     {
