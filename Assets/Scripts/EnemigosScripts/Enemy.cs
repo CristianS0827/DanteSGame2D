@@ -6,8 +6,6 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    
-    
     public float vida;
     public float kbForceX;
     public float kbForceY;
@@ -15,27 +13,26 @@ public class Enemy : MonoBehaviour
     public float velocidad;
     public string EnemyName;
     
-    private Animator ani;
+    private Animator animator;
     public CombateCC posG;
     private Rigidbody2D rb;
-
 
 
     [SerializeField] public bool esDañado;
     [SerializeField] SpriteRenderer sprite;
     Blink material;
-
     public static Enemy instance;
-    private void Awake() 
-    {
-       if(instance==null)
-       {
-        instance=this;
-       } 
+        private void Awake() 
+        {
+        if(instance==null)
+        {
+            instance=this;
+        }
     }
+
     private void Start()
     {
-        
+        animator=GetComponent<Animator>();
         material= GetComponent<Blink>();
         sprite= GetComponent<SpriteRenderer>();
         rb=GetComponent<Rigidbody2D>();
@@ -53,12 +50,7 @@ public class Enemy : MonoBehaviour
             rb.AddForce(new Vector2(-kbForceX,kbForceY), ForceMode2D.Force);
         }
         StartCoroutine(Damager());
-        if(vida<=0)
-        {
-            EnemyMove.instance.Muerte();
-            Destroy(gameObject);
-        }
-
+        // Muerte();
     }
     
     
@@ -70,13 +62,22 @@ public class Enemy : MonoBehaviour
         esDañado=false;
         sprite.material=material.original;
     }
-
-
-
-
-    private void Update()
+        private void Muerte()
     {
+        if(vida<=0)
+        {
+            animator.SetTrigger("Death");
+            Destroy(gameObject, (float)0.3);
+        }
+    }
+
         
+        
+
+
+    private void FixedUpdate() 
+    {
+        Muerte();
     }
        
 }

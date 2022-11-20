@@ -46,18 +46,12 @@ public class EnemyMove : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        vida=GetComponent<Enemy>().vida;
+        vida=Enemy.instance.vida;
         IrA=true;
         moviendoDerecha=true;
         velocidad= GetComponent<Enemy>().velocidad;
         rb= GetComponent<Rigidbody2D>();
         ani= GetComponent<Animator>();
-    }
-    public void Muerte()
-    {
-            ani.SetTrigger("Death");
-            Destroy(gameObject,(float)0.3);
-
     }
 
     // Update is called once per frame
@@ -71,12 +65,12 @@ public class EnemyMove : MonoBehaviour
         {
             Girar();
         }
-        
-        
     }
     private void FixedUpdate() 
     {
       {
+        vida=Enemy.instance.vida;
+
         if(Estatico)
         {
             ani.SetBool("Idle",true);
@@ -141,7 +135,6 @@ public class EnemyMove : MonoBehaviour
     }  
      
     }
-
     IEnumerator Esperar()
     {
         ani.SetBool("Idle",true);
@@ -152,6 +145,7 @@ public class EnemyMove : MonoBehaviour
         ani.SetBool("Idle",false);
         Girar();
     }
+
     private void Girar()
     {
          moviendoDerecha = !moviendoDerecha;

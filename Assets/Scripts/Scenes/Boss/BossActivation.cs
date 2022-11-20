@@ -4,6 +4,12 @@ using UnityEngine;
 
 public class BossActivation : MonoBehaviour
 {
+    public GameObject bossGo;
+    
+    private void Start() 
+    {
+        bossGo.SetActive(false);
+    }
     private void OnTriggerEnter2D(Collider2D colision) {
         if(colision.CompareTag("Player"))
         {
@@ -18,6 +24,7 @@ public class BossActivation : MonoBehaviour
     {
         var VelocidadActual= DanteMovimiento.Instance.Velocidad;
         DanteMovimiento.Instance.Velocidad=0;
+        bossGo.SetActive(true);
         yield return new WaitForSeconds(3f);
         DanteMovimiento.Instance.Velocidad=VelocidadActual;
         Destroy(gameObject);
