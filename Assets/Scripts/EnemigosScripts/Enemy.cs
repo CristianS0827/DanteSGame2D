@@ -21,9 +21,18 @@ public class Enemy : MonoBehaviour
     [SerializeField] public bool esDañado;
     [SerializeField] SpriteRenderer sprite;
     Blink material;
+    public static Enemy instance;
+        private void Awake() 
+        {
+        if(instance==null)
+        {
+            instance=this;
+        }
+    }
 
     private void Start()
     {
+        animator=GetComponent<Animator>();
         material= GetComponent<Blink>();
         sprite= GetComponent<SpriteRenderer>();
         rb=GetComponent<Rigidbody2D>();
@@ -41,10 +50,7 @@ public class Enemy : MonoBehaviour
             rb.AddForce(new Vector2(-kbForceX,kbForceY), ForceMode2D.Force);
         }
         StartCoroutine(Damager());
-        if(vida<=0)
-        {
-            Muerte();
-        }
+        // Muerte();
     }
     
     
@@ -56,17 +62,22 @@ public class Enemy : MonoBehaviour
         esDañado=false;
         sprite.material=material.original;
     }
-
-    private void Muerte()
+        private void Muerte()
     {
-        animator.SetTrigger("Muerte");
-        Destroy(gameObject, (float)0.3);
+        if(vida<=0)
+        {
+            animator.SetTrigger("Death");
+            Destroy(gameObject, (float)0.3);
+        }
     }
 
+        
+        
 
-    private void Update()
+
+    private void FixedUpdate() 
     {
-
+        Muerte();
     }
        
-    }
+}

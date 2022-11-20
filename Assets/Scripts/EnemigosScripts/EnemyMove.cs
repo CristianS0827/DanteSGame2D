@@ -12,7 +12,7 @@ public class EnemyMove : MonoBehaviour
     public LayerMask WiPiso;
 
     Rigidbody2D rb;
-    Animator ani;
+    public Animator ani;
     public float velocidad;
     
     public bool Estatico;
@@ -30,11 +30,23 @@ public class EnemyMove : MonoBehaviour
     public float RadioDeteccion;
     public float TiempoEsp;
 
+    public float vida;
+    public static EnemyMove instance;
+
+        private void Awake() 
+        {
+        if(instance==null)
+        {
+            instance=this;
+        }
+    }
+
 
 
     // Start is called before the first frame update
     void Start()
     {
+        vida=Enemy.instance.vida;
         IrA=true;
         moviendoDerecha=true;
         velocidad= GetComponent<Enemy>().velocidad;
@@ -45,6 +57,7 @@ public class EnemyMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
         HayPresi=!Physics2D.OverlapCircle(ControladorPresi.position,RadioDeteccion,WiPiso);
         HayPared=Physics2D.OverlapCircle(ControladorPared.position,RadioDeteccion,WiPiso);
         HaySuelo=Physics2D.OverlapCircle(ControladorSuelo.position,RadioDeteccion,WiPiso);
@@ -52,11 +65,12 @@ public class EnemyMove : MonoBehaviour
         {
             Girar();
         }
-        
     }
     private void FixedUpdate() 
     {
       {
+        vida=Enemy.instance.vida;
+
         if(Estatico)
         {
             ani.SetBool("Idle",true);
@@ -131,6 +145,7 @@ public class EnemyMove : MonoBehaviour
         ani.SetBool("Idle",false);
         Girar();
     }
+
     private void Girar()
     {
          moviendoDerecha = !moviendoDerecha;

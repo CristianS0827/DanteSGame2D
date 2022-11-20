@@ -378,20 +378,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vida: 100
-  kbForceX: 50
+  kbForceX: 100
   kbForceY: 10
-  DamageToGive: 0
-  velocidadcorr: 0
+  DamageToGive: 10
   velocidad: 0.8
-  distancia: 0.18
   EnemyName: 
-  IrA: 0
-  IrB: 0
-  IsPatrol: 0
   posG: {fileID: 0}
-  ControladorSuelo: {fileID: 8767090129211664191}
-  PuntoA: {fileID: 0}
-  PuntoB: {fileID: 0}
   "esDa\xF1ado": 0
   sprite: {fileID: 0}
 --- !u!114 &6662592437606375533
@@ -414,9 +406,18 @@ MonoBehaviour:
   WiPiso:
     serializedVersion: 2
     m_Bits: 0
+  ani: {fileID: 0}
+  velocidad: 0
   Estatico: 0
   Patruyando: 0
   Caminando: 0
+  moviendoDerecha: 0
+  DebeEsp: 0
+  HayPared: 0
+  HaySuelo: 0
+  HayPresi: 0
   IrA: 0
   IrB: 0
   RadioDeteccion: 0
+  TiempoEsp: 0
+  vida: 0
