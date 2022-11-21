@@ -24,7 +24,7 @@ public class AudioManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        PlayAudio(bckgMusica);
+         PlayAudio(bckgMusica);
         // sliderMusic.value=masterVolume;
         // sliderEffects.value=effectsVolume;
         
@@ -53,7 +53,7 @@ public class AudioManager : MonoBehaviour
     public void EffectsVolume()
     {
         DataManager.instance.setEffectsData(sliderEffects.value);
-        efectos.SetFloat("EffectsVolume",PlayerPrefs.GetFloat("EffectsVolume"));   
+        efectos.SetFloat("EffectsVolume",PlayerPrefs.GetFloat("EffectsVolume"));
     }
     public void PlayAudio(AudioSource audio)
     {

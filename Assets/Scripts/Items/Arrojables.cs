@@ -17,6 +17,7 @@ public class Arrojables : MonoBehaviour
     }
         void Start()
     {
+        cantidadArrojables=PlayerPrefs.GetInt("cantidadArrojables",0);
        arrojablesText.text="x "+cantidadArrojables.ToString(); 
     }
 
@@ -25,6 +26,10 @@ public class Arrojables : MonoBehaviour
     public void Arrojable(int montoArrojable)
     {
         cantidadArrojables+= montoArrojable;
+        DataManager.instance.currentArrojables(cantidadArrojables);
+        cantidadArrojables=PlayerPrefs.GetInt("cantidadArrojables");
+
         arrojablesText.text="x "+cantidadArrojables.ToString(); 
+
     }
 }

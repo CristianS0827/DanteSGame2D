@@ -37,6 +37,16 @@ public class Enemy : MonoBehaviour
         sprite= GetComponent<SpriteRenderer>();
         rb=GetComponent<Rigidbody2D>();
     }
+    private void OnTriggerEnter2D(Collider2D collision) 
+    {if(collision.CompareTag("Arma"))
+    {
+        if(!esDañado)
+        vida -= 30;
+        AudioManager.instance.PlayAudio(AudioManager.instance.dañoEnemigo);
+        StartCoroutine(Damager());
+    }
+        
+    }
 
      public void TomarDaño(float daño, float DirGolpe)
     {
