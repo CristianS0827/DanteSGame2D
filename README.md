@@ -8,7 +8,7 @@ Proyecto Dante's Odyssey
 
 Autores:
 - Jhonnatan Mendez
-- Cristian fierro
+- Cristian Fierro
 
 
 Facultad de Ingenieria
