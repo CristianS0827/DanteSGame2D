@@ -12,10 +12,9 @@ public class BossActivation : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D colision) {
         if(colision.CompareTag("Player"))
-        {
-            BossUI.instance.ActivarBoss();
+        { 
+            BossUI.instance.ActivarBoss(); 
             StartCoroutine(EsperarJefe());
-            
         }
         
     }
