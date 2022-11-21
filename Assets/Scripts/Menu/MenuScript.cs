@@ -9,6 +9,13 @@ public class MenuScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Scene scene= SceneManager.GetActiveScene();
+        if(scene.name=="MainMenuM")
+        {
+            AudioManager.instance.bckgMusica.Stop();
+            AudioManager.instance.PlayAudio(AudioManager.instance.mainMenu);
+        }
+        Time.timeScale=1;
         SettingDeactive.SetActive(false);
         
     }
@@ -21,6 +28,7 @@ public class MenuScript : MonoBehaviour
 
     public void StartGame()
     {
+        
         SceneManager.LoadScene(1);
     }
 
