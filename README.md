@@ -4,6 +4,16 @@
 
 ## PORTADA
 
+	Autores: 
+		- Jhonnatan Mendez
+		- Cristian fierro
+
+	Facultad de Ingenieria 
+	Universidad Cooperativa de Colombia UCC
+	Villavicencio
+	2022
+
+	 
   
 
 ## INTRODUCCIÓN
@@ -325,7 +335,7 @@ Para el desarrollo del proyecto, en su parte tecnica se emplearon 3 pilares, los
 2. **Motor Grafico:** El Motor grafico donde se desarrollo el proyecto fue en Unity, Unity es un motor grafico bastante solido y con mucho tiempo en el mercado, Unity guia a los programadores inexpertos durantes sus primeras etapas de desarrollo de tal manera que evita el agobio y la sensacion de fracaso, ya que este facilita ciertos procesos que para un inexperto no le es "necesario" de aprender en primera instancia 
 3. **Editor de imagenes:** El editor de imagenes donde se llevo a cabo la creacion del personaje, villanos y enemigos y muchos Sprotes, fue en Aseprite, este software es uno de los más recomendado tanto por expertos como por amantes del Pixel Art debido a que desde su interfaz Aseprite esta fundamentado sobre la creacion de Pixel Art, permitiendo tambien hacer animacion del personaje dentro del mismo software sin necesidad de usar un tercero.
 
-### 4.4 DISEÑO INTERFAZ
+
 
 ## 5. ANÁLISIS ECONÓMICO 
 Para el desarrollo se tiene en cuenta el siguiente costo de produccion: 
