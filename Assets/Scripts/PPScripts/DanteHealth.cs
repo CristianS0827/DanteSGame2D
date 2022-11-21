@@ -41,6 +41,7 @@ public class DanteHealth : MonoBehaviour
         {
             VidaPP -= collision.GetComponent<Enemy>().DamageToGive;
             StartCoroutine(Inmunity());
+            AudioManager.instance.PlayAudio(AudioManager.instance.dañoPP);
             if(collision.transform.position.x > transform.position.x)
             {
                 rb.AddForce(new Vector2 (-kbForceX, kbForceY),ForceMode2D.Force);

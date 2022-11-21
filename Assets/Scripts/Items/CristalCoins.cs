@@ -12,20 +12,8 @@ public class CristalCoins : MonoBehaviour
         if(collision.CompareTag("Player"))
         {
             CuentaBanco.instance.Dinero(dineroADar);
+            AudioManager.instance.PlayAudio(AudioManager.instance.coins);
             Destroy(gameObject);
         }
-    }
-        
-    
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }

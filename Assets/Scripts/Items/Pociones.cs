@@ -11,6 +11,7 @@ public class Pociones : MonoBehaviour
         if(collision.CompareTag("Player"))
         {
             collision.GetComponent<DanteHealth>().VidaPP+= VidaADar;
+            AudioManager.instance.PlayAudio(AudioManager.instance.colec);
             Destroy(gameObject);
         }
     }
