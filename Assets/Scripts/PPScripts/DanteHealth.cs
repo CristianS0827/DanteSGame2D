@@ -92,7 +92,7 @@ public class DanteHealth : MonoBehaviour
 
             gameOverIm.SetActive(true);
             AudioManager.instance.bckgMusica.Stop();
-            AudioManager.instance.bkcgMBoss.Stop();
+            // AudioManager.instance.bkcgMBoss.Stop();
 
             if(gameOverIm.GetComponent<CanvasGroup>().alpha<1f)
             {

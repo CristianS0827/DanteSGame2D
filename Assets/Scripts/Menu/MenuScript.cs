@@ -10,7 +10,7 @@ public class MenuScript : MonoBehaviour
     void Start()
     {
         Scene scene= SceneManager.GetActiveScene();
-        if(scene.name=="MainMenuM")
+        if(scene.name=="MainMenu")
         {
             AudioManager.instance.bckgMusica.Stop();
             AudioManager.instance.PlayAudio(AudioManager.instance.mainMenu);

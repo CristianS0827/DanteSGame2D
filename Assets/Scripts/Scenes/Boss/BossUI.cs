@@ -23,21 +23,22 @@ public class BossUI : MonoBehaviour
     }
     public void ActivarBoss()
     {
-        AudioManager.instance.bckgMusica.Stop();
-        AudioManager.instance.PlayAudio(AudioManager.instance.bkcgMBoss);
         panelBoss.SetActive(true);
         MuroLim.SetActive(true);
     }
 
     public void DesactivarBoss()
     {
+        if(panelBoss!=null)
+        {
         panelBoss.SetActive(false);
         MuroLim.SetActive(false);
-        AudioManager.instance.bkcgMBoss.Stop();
-        AudioManager.instance.PlayAudio(AudioManager.instance.bckgMusica);
+
+        }
+    
     }
 
-    // Update is called once per frame
+
     void Update()
     {
         
