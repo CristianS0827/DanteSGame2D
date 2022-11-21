@@ -31,10 +31,10 @@ public class DataManager : MonoBehaviour
     {
         PlayerPrefs.SetFloat("EffectsVolume",value);
     }
-    public void currentArrojables(int value)
-    {
-        PlayerPrefs.SetInt("cantidadArrojables",value);
-    }
+     public void currentArrojables(int value)
+     {
+         PlayerPrefs.SetInt("cantidadArrojables",value);
+     }
 
     // Update is called once per frame
     void Update()
