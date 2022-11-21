@@ -93,18 +93,111 @@ los requerimientos planteados para el funcionamiento del videojuego se evidencia
     
 ```mermaid
 classDiagram
-class BankAccount
-BankAccount : +String owner
-BankAccount : +BigDecimal balance
-BankAccount : +deposit(amount)
-BankAccount : +withdrawal(amount)
-class Hola
-Hola : +String owner
-Hola : +BigDecimal balance
-Hola : +deposit(amount)
-Hola : +withdrawal(amount)
+UIPrincipal <-- UIJuego
+UIJuego <-- Escena
+Escena o-- CambiarEscena
+Escena o-- PausaMenu
+Escena <-- Items
+Escena <-- Player
+Escena <-- Enemigos
+class CambiarEscena{
+	+SceneChanger()
+}
+class PausaMenu{
+	+pauseMenu: Gameobject
+	+EsPausado: bool
+	-Awake()
+	-Update()
+	+Pause()
+}
+Items <-- CuentaBanco
+Items <--Arrojable
+Items <-- Pociones
+Arrojable o-- Recolectable
+CuentaBanco o-- CristalCoins
+class CristalCoins{
++dineroADar: float
+-OnTriggerEnter2D()
+}
+class Arrojable{
++cantidadArrojables: int
++arrojablesText: Text
+-Awake()
+-Start()
++Arrojable()
+}
+class CuentaBanco{
++TextoBanco: Text
++banco: float
+-Awake()
+-Start()
++Dinero()
+}
+class Pociones{
++VidaADar: float
+-OnTriggerEnter2D()
+}
+class Recolectable{
++DagasADar: int
+-OnTriggerEnter2D()
+}
 
-BankAccount--|>Hola
+Player<--Combate
+Player<--DanteMovimiento
+Player<--SubArmas
+Player<--DanteHealth
+class Combate{
++radioGolpe: float
++dañoGolpe: float
++esDañado: bool
++posGolp: float
+-tiempoEntreAtt: float
+-tiempoSigAtt: float
+-animator: Animator
+-Start()
+-Update()
+-Golpe()
+-OnDrawGizmos()
+}
+class DanteHealth{
++VidaPP: float
++maxVidaPP: float
++VidaImage: Image
++EsInmun: bool
++TiempoInmu: float
++kbForceX: float
++kbForceY: float
+-sprite: SpriterRenderer
+-material: Blink
+-rb: Rigibody2D
+-Start()
+-Update()
+-OnTriggerEnter2D()
+}
+class SubArmas{
++cost: int
++dagas: GameObject
+-Start()
+-Update()
++UsarArmaSecond()
+}
+class DanteMovimiento{
++Velocidad: float
++FuerzaSalto: float
++PisandoSuelo: bool
++Check: Transform
++RadioChecker: float
++WiPiso: LayerMask
+-Rigidbody2D: Rigidbody2D
+-Animator: Animator
+-Horizontal: float
+-spriteRenderer: SpritRenderer
+-Awake()
+-Start()	
+-Update()
+-Jump()
+-FixedUpdate()
+}
 
 ```
 
