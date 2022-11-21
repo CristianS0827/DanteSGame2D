@@ -16,7 +16,7 @@ Facultad de Ingenieria
 Universidad Cooperativa de Colombia UCC
 
 Villavicencio
-	
+
 2022
 
 	 
@@ -388,4 +388,4 @@ En la tabla anterior mostrada se muestra los costos de produccion del videojuego
 
 10. Wikipedia contributors. (s/f-b).  _Divina comedia_. Wikipedia, The Free Encyclopedia. https://es.wikipedia.org/w/index.php?title=Divina_comedia&oldid=146782318
 
-## ANEXOS 
+ 
