@@ -18,6 +18,16 @@ public class DanteHealth : MonoBehaviour
     public float kbForceX;
     public float kbForceY;
     Rigidbody2D rb;
+    public static DanteHealth instancia;
+
+    private void Awake() 
+    {if(instancia==null)
+    {
+        instancia=this;
+    }
+        
+    }
+
 
     public GameObject gameOverIm;
     // Start is called before the first frame update

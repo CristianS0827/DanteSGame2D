@@ -54,6 +54,8 @@ public class BossComportamiento : MonoBehaviour
     private void OnDestroy() 
     {
         BossUI.instance.DesactivarBoss();
+        AudioManager.instance.bkcgMBoss.Stop();
+        AudioManager.instance.PlayAudio(AudioManager.instance.bckgMusica);
     }
     public void CountDowns ()
     {       

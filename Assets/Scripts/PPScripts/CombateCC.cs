@@ -27,13 +27,13 @@ public class CombateCC : MonoBehaviour
         if(Input.GetButton("Fire1")&& tiempoSigAtt<=0)
         {
             Golpe();
+            AudioManager.instance.PlayAudio(AudioManager.instance.ataque);
             tiempoSigAtt=tiempoEntreAtt;
         }
     }
     private void Golpe()
     {
         animator.SetTrigger("Attack");
-        AudioManager.instance.PlayAudio(AudioManager.instance.ataque);
         Collider2D[] objetos=Physics2D.OverlapCircleAll(ControladorGolpe.position, radioGolpe);
         posGolpe=ControladorGolpe.position.x;
                 print(posGolpe);
@@ -45,6 +45,7 @@ public class CombateCC : MonoBehaviour
             }
         }
     }
+
     private void OnDrawGizmos()
     {
         Gizmos.color=Color.red;
