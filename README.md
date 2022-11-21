@@ -3,15 +3,16 @@
   
 
 ## PORTADA
+Proyecto Dante's Odyssey
 
-	Autores: 
-		- Jhonnatan Mendez
-		- Cristian fierro
+Autores: 
+	- Jhonnatan Mendez
+	- Cristian fierro
 
-	Facultad de Ingenieria 
-	Universidad Cooperativa de Colombia UCC
-	Villavicencio
-	2022
+Facultad de Ingenieria 
+Universidad Cooperativa de Colombia UCC
+Villavicencio
+2022
 
 	 
   
