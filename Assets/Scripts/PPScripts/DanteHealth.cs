@@ -12,11 +12,14 @@ public class DanteHealth : MonoBehaviour
 
     public bool EsInmune;
     public float TiempoInmu;
+    public bool estaMuerto;
     SpriteRenderer sprite;
     Blink material;
     public float kbForceX;
     public float kbForceY;
     Rigidbody2D rb;
+
+    public GameObject gameOverIm;
     // Start is called before the first frame update
     void Start()
     {
@@ -25,11 +28,16 @@ public class DanteHealth : MonoBehaviour
         sprite= GetComponent<SpriteRenderer>();
         
         VidaPP=maxVidaPP;
+        if(!estaMuerto)
+        {
+            gameOverIm.GetComponent<CanvasGroup>().alpha=0.0f;
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
+        EstaMuerto();
         VidaImage.fillAmount=VidaPP/200;
         if(VidaPP>maxVidaPP)
         {
@@ -51,6 +59,9 @@ public class DanteHealth : MonoBehaviour
             }
             if(VidaPP <=0)
             {
+                AudioManager.instance.PlayAudio(AudioManager.instance.muertePP);
+                estaMuerto=true;
+                // gameOverIm.SetActive(true);
                 print("player dead");
             }
         }
@@ -61,6 +72,22 @@ public class DanteHealth : MonoBehaviour
             yield return new WaitForSeconds(TiempoInmu);
             sprite.material=material.original;
             EsInmune=false;
+        }
+    }
+    public void EstaMuerto()
+    {
+        if(estaMuerto)
+        {
+            Time.timeScale=0;
+
+            gameOverIm.SetActive(true);
+            AudioManager.instance.bckgMusica.Stop();
+            AudioManager.instance.bkcgMBoss.Stop();
+
+            if(gameOverIm.GetComponent<CanvasGroup>().alpha<1f)
+            {
+                gameOverIm.GetComponent<CanvasGroup>().alpha+=0.005f;
+            }
         }
     }
 }

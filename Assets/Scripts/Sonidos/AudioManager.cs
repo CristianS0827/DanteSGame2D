@@ -8,7 +8,7 @@ public class AudioManager : MonoBehaviour
 {
     public AudioMixer efectos;
     public AudioMixer musica;
-    public AudioSource bckgMusica,bkcgMBoss, ataque, muerteEnemigo, coins, colec,lanzaDaga,muerteJefe,muertePP,summonJefe,dañoEnemigo,dañoPP,salto;
+    public AudioSource bckgMusica,bkcgMBoss,mainMenu, ataque, muerteEnemigo, coins, colec,lanzaDaga,muerteJefe,muertePP,summonJefe,dañoEnemigo,dañoPP,salto;
     
     public static AudioManager instance;
     [Range(-80,10)]
@@ -25,45 +25,38 @@ public class AudioManager : MonoBehaviour
     void Start()
     {
         PlayAudio(bckgMusica);
-        if(BossUI.instance.MuroLim==false)
-        {
-            PauseAudio(bkcgMBoss);
-        }
-        sliderMusic.value=masterVolume;
-        sliderEffects.value=effectsVolume;
+        // sliderMusic.value=masterVolume;
+        // sliderEffects.value=effectsVolume;
         
         sliderMusic.minValue=-80;
         sliderMusic.maxValue=10;
 
         sliderEffects.minValue=-80;
         sliderEffects.maxValue=10;
+
+        sliderMusic.value=PlayerPrefs.GetFloat("MusicVolume",0f);
+        sliderEffects.value=PlayerPrefs.GetFloat("EffectsVolume",0f);
     }
 
     // Update is called once per frame
     void Update()
     {
-        MasterVolume();
-        EffectsVolume();   
+        // MasterVolume();
+        // EffectsVolume();   
     }
 
     public void MasterVolume()
     {
-        musica.SetFloat("MasterVolume",sliderMusic.value);   
+        DataManager.instance.setMusicData(sliderMusic.value);
+        musica.SetFloat("MasterVolume",PlayerPrefs.GetFloat("MusicVolume"));   
     }
     public void EffectsVolume()
     {
-        efectos.SetFloat("EffectsVolume",sliderEffects.value);   
+        DataManager.instance.setEffectsData(sliderEffects.value);
+        efectos.SetFloat("EffectsVolume",PlayerPrefs.GetFloat("EffectsVolume"));   
     }
     public void PlayAudio(AudioSource audio)
     {
         audio.Play();
-    }
-    public void PauseAudio(AudioSource audio)
-    {
-        audio.Pause();
-    }
-    
-
-    
-    
+    }   
 }

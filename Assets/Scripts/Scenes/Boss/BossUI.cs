@@ -23,7 +23,7 @@ public class BossUI : MonoBehaviour
     }
     public void ActivarBoss()
     {
-        AudioManager.instance.PauseAudio(AudioManager.instance.bckgMusica);
+        AudioManager.instance.bckgMusica.Stop();
         AudioManager.instance.PlayAudio(AudioManager.instance.bkcgMBoss);
         panelBoss.SetActive(true);
         MuroLim.SetActive(true);
@@ -31,7 +31,7 @@ public class BossUI : MonoBehaviour
 
     public void DesactivarBoss()
     {
-        AudioManager.instance.PauseAudio(AudioManager.instance.bkcgMBoss);
+        AudioManager.instance.bkcgMBoss.Stop();
         AudioManager.instance.PlayAudio(AudioManager.instance.bckgMusica);
         panelBoss.SetActive(false);
         MuroLim.SetActive(false);
