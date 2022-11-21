@@ -60,6 +60,7 @@ public class DanteMovimiento : MonoBehaviour
     private void Jump()
     {
         Rigidbody2D.AddForce(Vector2.up*FuerzaSalto);
+        AudioManager.instance.PlayAudio(AudioManager.instance.salto);
     }
     private void FixedUpdate()
     {

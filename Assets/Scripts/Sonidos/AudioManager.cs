@@ -7,7 +7,7 @@ public class AudioManager : MonoBehaviour
 {
     public AudioMixer efectos;
     public AudioMixer musica;
-    public AudioSource bckgMusica, ataque, muerteEnemigo, coins, colec,lanzaDaga,muerteJefe,muertePP,summonJefe,dañoEnemigo,dañoPP;
+    public AudioSource bckgMusica, ataque, muerteEnemigo, coins, colec,lanzaDaga,muerteJefe,muertePP,summonJefe,dañoEnemigo,dañoPP,salto;
 
     public static AudioManager instance;
     private void Awake() {
@@ -20,6 +20,7 @@ public class AudioManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        PlayAudio(bckgMusica);
         
     }
 
