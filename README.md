@@ -12,8 +12,11 @@ Autores:
 
 
 Facultad de Ingenieria
+
 Universidad Cooperativa de Colombia UCC
+
 Villavicencio
+	
 2022
 
 	 
