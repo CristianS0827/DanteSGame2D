@@ -94,9 +94,10 @@ los requerimientos planteados para el funcionamiento del videojuego se evidencia
 ```mermaid
 classDiagram
 UIPrincipal <-- UIJuego
-UIJuego <-- Escena
+UIJuego o-- Escena
 Escena o-- CambiarEscena
 Escena o-- PausaMenu
+Escena o-- Boss
 Escena <-- Items
 Escena <-- Player
 Escena <-- Enemigos
@@ -109,6 +110,49 @@ class PausaMenu{
 	-Awake()
 	-Update()
 	+Pause()
+}
+Boss <-- BossActivation
+Boss <-- BossComportamiento
+Boss <-- BossUI
+Boss <-- SummonScript
+class BossActivation{
+	+bossGo: GameObject
+	-Start()
+	-OnTriggerEnter2D()
+}
+class BossComportamiento{
+	+tiempoDisparo: float
+	+countdown: float
+	+tiempoCambioPos: float
+	+bossVida: float
+	+vidaActual: float
+	+barraVidaBoss: Image
+	+transforms: Transforms[]
+	+GhostFlame: GameObject
+	-Start()
+	+DisparoAJugador()
+	+CambioDePosicion()
+	+DañoBoss()
+	+BossScale()
+	-OnDestroy()
+	+CountDowns()
+	-Update()
+}
+class BossUI{
+	+panelBoss: GameObject
+	+MuroLim: GameObject
+	-Awake()
+	-Start()
+	+ActivarBoss()
+	+DesactivarBoss()
+	-Update()
+}
+class SummonScript{
+	+velocidadMov: float
+	+rb: RigiBody2D
+	+direccionMov: Vector2
+	+target: DanteMovimiento
+	-Start()
 }
 Items <-- CuentaBanco
 Items <--Arrojable
@@ -197,6 +241,79 @@ class DanteMovimiento{
 -Update()
 -Jump()
 -FixedUpdate()
+}
+
+Enemigos <-- Enemy
+Enemigos <-- EnemyMove
+Enemigos <-- EnemyHealth
+Enemigos <-- GeneradorEnemigos
+
+class Enemy{
+	+vida: float
+	+kbForceX: float
+	+kbForceY: float
+	+DamageToGive: float
+	+velocidad: float
+	+EnemyName: String
+	+posG: CombateCC
+	+esDañado: bool
+	-rb: Rigidbody2D
+	-animator: Animator
+	-sprite:  SpriteRenderer
+	-material: Blink
+	+Awake()
+	-Start()
+	+TomarDaño()
+	-Muerte()
+	-FixedUpdate()
+}
+class EnemyMove{
+	+PuntoA: Transform	
+	+PuntoB: Transform
+	+ControladorSuelo: Transform
+	+ControladorPared: Transform	
+	+ControladorPresi: Transform	
+	+WiPiso: LayerMAsk
+	+rb: RigiBody2D
+	+ani: Animator
+	+velocidad: float
+	+vida: float
+	+RadioDeteccion: float
+	+TiempoEsp: float
+	+Estatico: bool	
+	+Patruyando: bool	
+	+Caminando: bool	
+	+moviendoDerecha: bool	
+	+DebeEsp: bool	
+	+EstaEsp: bool	
+	+HayPared: bool	
+	+HaySuelo: bool	
+	+HayPresi: bool	
+	+IrA: bool	
+	+IrB: bool
+	-Awake()	
+	-Start()
+	-Update()
+	-FixedUpdate()
+	-Girar()
+}
+class EnemyHealth{
+	+enemy: Enemy
+	-Start()
+	-OnTriggerEnter2D()
+}
+class GeneradorEnemigos{
+	-minX: float
+	-maxX: float
+	-minY: float
+	-maxY: float
+	-puntos: Transform[]
+	-enemigos: GameObject[]
+	-tiempoEnemigos: float
+	-tiempoSiguienteEnemigo: float
+	-Start()
+	-Update()
+	-CrearEnemigo()
 }
 
 ```
