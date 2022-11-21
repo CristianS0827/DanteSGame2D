@@ -1,23 +1,8 @@
 # Dante's Odyssey
-# UNIVERSIDAD COOPERATIVA DE COLOMBIA
-
-# PROGRAMA DE INGENIERÍA DE SISTEMAS
-
-# DOCUMENTO PROYECTOS DE AULA
 
   
 
 ## PORTADA
-
-## TABLA DE CONTENIDO
-
-- LISTAS ESPECIALES
-
-- LISTA DE TABLAS
-
-- LISTA DE FIGURAS
-
-- LISTA DE ANEXOS
 
   
 
@@ -43,7 +28,6 @@ En Colombia el desarrollo de videojuegos aún es una industria muy joven en comp
  - Implementacion de conceptos propios de la Programacion Orientada a Objetos
  -  Adaptacion de la narrativa de la Divina Comedia para la linealidad del juego
 
-### 1.3 JUSTIFICACIÓN
 
 ## 2 MARCO DE REFERENCIA
 Para el desarrollo del concepto del videojuego Dante's Odyssey se planeo hacer uso de la historia contada en la Divina Comedia, haciendo uso de los pasajes por los que pasa Dante y el poeta virgilio como escenarios/niveles que permitan al jugador enfrentarse a los distintos pecados de los circulos del infierno.
