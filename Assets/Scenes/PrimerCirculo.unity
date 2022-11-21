@@ -372,8 +372,8 @@ CapsuleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.20987377, y: -0.07483089}
-  m_Size: {x: 0.48025244, y: 1.0903382}
+  m_Offset: {x: -0.2512928, y: -0.07483089}
+  m_Size: {x: 0.3974144, y: 1.0903382}
   m_Direction: 0
 --- !u!114 &8963901
 MonoBehaviour:
@@ -6793,6 +6793,7 @@ GameObject:
   - component: {fileID: 1251304124}
   - component: {fileID: 1251304125}
   - component: {fileID: 1251304126}
+  - component: {fileID: 1251304127}
   m_Layer: 5
   m_Name: GameManager
   m_TagString: Untagged
@@ -6945,6 +6946,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pauseMenu: {fileID: 1687772256}
+--- !u!114 &1251304127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1251304118}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c82888e201fa0d544aa88783391382c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1282842063
 GameObject:
   m_ObjectHideFlags: 0
