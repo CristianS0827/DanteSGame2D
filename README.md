@@ -23,7 +23,8 @@ Villavicencio
   
 
 ## INTRODUCCIÓN
-El desarrollo de videojuegos es un ámbito que ha venido adquiriendo relevancia en los ultimos años, un apartado de la programación donde este surge a partir de una idea hasta su materialización como un videojuego donde se extiende multidisciplinariamente por diferentes sectores, tales como, la animación, la música, el arte, el diseño gráfico y, la rama que permite la unión de todo esto, la programación 
+El desarrollo de videojuegos es un ámbito que surgio a finales del pasado siglo con las ideas de mentes brillantes que a pesar de las tecnologias de la epoca crearon titulos relevantes e iconicos que han persistido a traves de los años e incluso son considerados juegos de  culto en los presentes años,
+un apartado de la programación donde este surge a partir de una idea hasta su materialización como un videojuego donde se extiende multidisciplinariamente por diferentes sectores, tales como, la animación, la música, el arte, el diseño gráfico y, la rama que permite la unión de todo esto, la programación 
 ## ABSTRAC 
 The development of video games is a field that has been gaining relevance in recent years, a section of programming where this arises from an idea to its materialization as a video game where it extends multidisciplinary by different sectors, such as animation, music, art, graphic design and the branch that allows the union of all this, programming.
 
