@@ -35,12 +35,21 @@ public class BossUI : MonoBehaviour
         MuroLim.SetActive(false);
 
         }
+        AudioManager.instance.bkcgMBoss.Stop();
+        AudioManager.instance.PlayAudio(AudioManager.instance.bckgMusica);
+
+        
     
     }
 
 
     void Update()
     {
+        if(panelBoss==null && MuroLim==null)
+        {
+        AudioManager.instance.bkcgMBoss.Stop();
+        AudioManager.instance.PlayAudio(AudioManager.instance.bckgMusica);
+        }
         
     }
 }

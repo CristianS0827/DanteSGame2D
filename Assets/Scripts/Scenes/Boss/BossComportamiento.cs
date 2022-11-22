@@ -5,7 +5,8 @@ using UnityEngine.UI;
 
 public class BossComportamiento : MonoBehaviour
 {
-    public float tiempoDisparo; 
+    public float tiempoDisparo;
+    public float startTiempoDisparo;  
     public float countdown;
     public float tiempoCambioPos;
     public float countdownPos;
@@ -16,6 +17,7 @@ public class BossComportamiento : MonoBehaviour
     public GameObject GhostFlame;
     void Start()
     {
+        startTiempoDisparo=tiempoDisparo;
     var posicionInicial= 1;
       transform.position=transforms[posicionInicial].position;
       countdown=tiempoDisparo;
@@ -38,6 +40,11 @@ public class BossComportamiento : MonoBehaviour
         
         vidaActual=GetComponent<Enemy>().vida;
         barraVidaBoss.fillAmount=vidaActual/bossVida;
+        if(vidaActual<=0)
+        {
+        AudioManager.instance.bkcgMBoss.Stop();
+        AudioManager.instance.PlayAudio(AudioManager.instance.bckgMusica);   
+        }
 
     }
     public void BossScale()
@@ -54,9 +61,8 @@ public class BossComportamiento : MonoBehaviour
     private void OnDestroy() 
     {
         BossUI.instance.DesactivarBoss();
-        AudioManager.instance.bkcgMBoss.Stop();
-        AudioManager.instance.PlayAudio(AudioManager.instance.bckgMusica);
     }
+    
     public void CountDowns ()
     {       
         countdown -= Time.deltaTime;

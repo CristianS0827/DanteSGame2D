@@ -6,9 +6,19 @@ using UnityEngine.UI;
 public class PauseMenu : MonoBehaviour
 {
     public GameObject pauseMenu;
-    bool EsPausado;
+
+    public bool EsPausado;
+    public static PauseMenu instance;
+    private void Awake() 
+    {
+        if(instance==null)
+        {
+            instance=this;
+        }
+        
+    }
     // Start is called before the first frame update
-    void Awake()
+    void Start()
     {
             Time.timeScale=1;
             pauseMenu.SetActive(false);
@@ -24,6 +34,7 @@ public class PauseMenu : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.Escape) && !EsPausado)
         {
+            
             Time.timeScale=0;
             pauseMenu.SetActive(true);
             EsPausado=true;

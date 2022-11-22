@@ -14,9 +14,10 @@ public class MenuScript : MonoBehaviour
         {
             AudioManager.instance.bckgMusica.Stop();
             AudioManager.instance.PlayAudio(AudioManager.instance.mainMenu);
+            SettingDeactive.SetActive(false);
         }
         Time.timeScale=1;
-        SettingDeactive.SetActive(false);
+        
         
     }
 
@@ -46,8 +47,15 @@ public class MenuScript : MonoBehaviour
         SettingDeactive.SetActive(false);        
     }
     public void IrMainMenu()
+    {  
+        if(PauseMenu.instance.EsPausado==true)
+        {
+            SceneManager.LoadScene(0);
+        }
+               
+    }public void IrMenuMuerte()
     {
-        SceneManager.LoadScene(0);   
+        SceneManager.LoadScene(0);
     }
     
 }

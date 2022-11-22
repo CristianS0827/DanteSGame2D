@@ -38,6 +38,7 @@ public class DanteHealth : MonoBehaviour
         sprite= GetComponent<SpriteRenderer>();
         
         VidaPP=maxVidaPP;
+        gameOverIm.SetActive(false);
         if(!estaMuerto)
         {
             gameOverIm.GetComponent<CanvasGroup>().alpha=0.0f;
